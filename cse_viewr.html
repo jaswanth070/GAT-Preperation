@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject-wise Questions</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            align-items: center;
+            text-align: center;
+            background-color: rgb(33, 23, 37);
+            color: #fff;
+        }
+
+        #question-container {
+            /* background-color: #007BFF; */
+            /* max-width: 600px; */
+            margin: 0 auto;
+        }
+
+        #subject-name {
+            font-size: 32px;
+            background-color: bisque;
+            padding: 5px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 100px;
+            width: 400px;
+        }
+
+        #question {
+            background-color: aliceblue;
+            color:black;
+            padding: 40px;
+            border-radius: 40px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+
+        #answer {
+            background-color: green;
+            color:aliceblue;
+            padding: 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bolder;
+            margin-bottom: 30px;
+        }
+
+        #next-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="question-container">
+    <div id="subject-name"></div>
+    <div id="question"></div>
+    <div id="answer"></div>
+    <button id="next-button" onclick="showNextQuestion()">Next</button>
+</div>
+
+<script>
+    // Load JSON data from the file
+    async function loadJSONData() {
+        const response = await fetch("\cse.json");
+        const data = await response.json();
+        return data;
+    }
+
+    let subjectWiseData;
+    let currentSubjectIndex = 0;
+    let currentQuestionIndex = 0;
+
+    async function showNextQuestion() {
+        if (!subjectWiseData) {
+            subjectWiseData = await loadJSONData();
+        }
+
+        const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
+        const currentQuestions = subjectWiseData[currentSubject];
+
+        if (currentQuestionIndex < currentQuestions.length) {
+            const currentQuestion = currentQuestions[currentQuestionIndex];
+            document.getElementById("subject-name").textContent = currentSubject;
+            document.getElementById("question").textContent = currentQuestion.question;
+            document.getElementById("answer").textContent = `${currentQuestion.correct_answer}`;
+            currentQuestionIndex++;
+        } else {
+            // Move to the next subject
+            currentSubjectIndex++;
+            currentQuestionIndex = 0;
+
+            if (currentSubjectIndex < Object.keys(subjectWiseData).length) {
+                // Show the first question of the next subject
+                showNextQuestion();
+            } else {
+                // No more subjects, display a message or handle as needed
+                alert("End of questions.");
+            }
+        }
+    }
+
+    // Initial load
+    showNextQuestion();
+</script>
+
+</body>
+</html>

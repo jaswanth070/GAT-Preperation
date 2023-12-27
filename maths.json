@@ -1,0 +1,42 @@
+[
+  {
+    "image_link": "./10_files/mee 35.png",
+    "correct_answer": "2abz"
+  },
+  {
+    "image_link": "./10_files/mee 36.png",
+    "correct_answer": "log(e\u00b2\u02e3+1)-x+c"
+  },
+  {
+    "image_link": "./10_files/mee 37.png",
+    "correct_answer": "1/2sinh\u207b\u00b9(2x-1)+c"
+  },
+  {
+    "image_link": "./10_files/mee 38.png",
+    "correct_answer": "xlogx-x+c"
+  },
+  {
+    "image_link": "./10_files/mee 39.png",
+    "correct_answer": "1"
+  },
+  {
+    "image_link": "./10_files/mee 40.png",
+    "correct_answer": "16/3 sq. units"
+  },
+  {
+    "image_link": "./10_files/mee 41.png",
+    "correct_answer": "\u03c0/4"
+  },
+  {
+    "image_link": "./10_files/mee 42.png",
+    "correct_answer": "1/2tan\u207b\u00b9(2x)+c"
+  },
+  {
+    "image_link": "./10_files/mee 43.png",
+    "correct_answer": "1"
+  },
+  {
+    "image_link": "./10_files/mee 44.png",
+    "correct_answer": "Order=1,degree=2"
+  }
+]
