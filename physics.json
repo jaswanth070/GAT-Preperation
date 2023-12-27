@@ -1,4 +1,5 @@
-[
+{
+"Physics" : [
   {
     "question": "Kilo watt hour is the unit of",
     "correct_answer": "energy"
@@ -1360,3 +1361,4 @@
     "correct_answer": "10^-3 \u043c"
   }
 ]
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subject-wise Questions</title>
+    <title>Jaswanth Madiya</title>
     <style>
         body {
             display: flex;
@@ -55,70 +55,103 @@
             margin-bottom: 30px;
         }
 
-        #next-button {
+        .navigation-button {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #007BFF;
-            color: #fff;
             border: none;
             border-radius: 5px;
+        }
+
+        #previous-button {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        #next-button {
+            background-color: #007BFF;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
-<div id="question-container">
-    <div id="subject-name"></div>
-    <div id="question"></div>
-    <div id="answer"></div>
-    <button id="next-button" onclick="showNextQuestion()">Next</button>
-</div>
+    <div id="question-container">
+        <div id="subject-name"></div>
+        <div id="question"></div>
+        <div id="answer"></div>
+        <div id="navigation-buttons">
+            <button id="previous-button" class="navigation-button" onclick="showPreviousQuestion()">Previous</button>
+            <button id="next-button" class="navigation-button" onclick="showNextQuestion()">Next</button>
+        </div>
+    </div>
 
-<script>
-    // Load JSON data from the file
-    async function loadJSONData() {
-        const response = await fetch("\cse.json");
-        const data = await response.json();
-        return data;
-    }
-
-    let subjectWiseData;
-    let currentSubjectIndex = 0;
-    let currentQuestionIndex = 0;
-
-    async function showNextQuestion() {
-        if (!subjectWiseData) {
-            subjectWiseData = await loadJSONData();
+    <script>
+        // Load JSON data from the file
+        async function loadJSONData() {
+            const response = await fetch('cse.json');
+            const data = await response.json();
+            return data;
         }
-
-        const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
-        const currentQuestions = subjectWiseData[currentSubject];
-
-        if (currentQuestionIndex < currentQuestions.length) {
-            const currentQuestion = currentQuestions[currentQuestionIndex];
-            document.getElementById("subject-name").textContent = currentSubject;
-            document.getElementById("question").textContent = currentQuestion.question;
-            document.getElementById("answer").textContent = `${currentQuestion.correct_answer}`;
-            currentQuestionIndex++;
-        } else {
-            // Move to the next subject
-            currentSubjectIndex++;
-            currentQuestionIndex = 0;
-
-            if (currentSubjectIndex < Object.keys(subjectWiseData).length) {
-                // Show the first question of the next subject
-                showNextQuestion();
+    
+        let subjectWiseData;
+        let currentSubjectIndex = 0;
+        let currentQuestionIndex = 0;
+    
+        async function showPreviousQuestion() {
+            if (!subjectWiseData) {
+                subjectWiseData = await loadJSONData();
+            }
+    
+            const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
+            const currentQuestions = subjectWiseData[currentSubject];
+    
+            if (currentQuestionIndex > 0) {
+                // Show the previous question
+                currentQuestionIndex--;
+                const currentQuestion = currentQuestions[currentQuestionIndex];
+                document.getElementById("subject-name").textContent = currentSubject;
+                document.getElementById("question").textContent = currentQuestion.question;
+                document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
             } else {
-                // No more subjects, display a message or handle as needed
-                alert("End of questions.");
+                // If already at the first question, show a message or handle as needed
+                alert("This is the first question.");
             }
         }
-    }
-
-    // Initial load
-    showNextQuestion();
-</script>
-
-</body>
-</html>
+    
+        async function showNextQuestion() {
+            if (!subjectWiseData) {
+                subjectWiseData = await loadJSONData();
+            }
+    
+            const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
+            const currentQuestions = subjectWiseData[currentSubject];
+    
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                // Show the next question
+                currentQuestionIndex++;
+                const currentQuestion = currentQuestions[currentQuestionIndex];
+                document.getElementById("subject-name").textContent = currentSubject;
+                document.getElementById("question").textContent = currentQuestion.question;
+                document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
+            } else {
+                // Move to the next subject
+                currentSubjectIndex++;
+                currentQuestionIndex = 0;
+    
+                if (currentSubjectIndex < Object.keys(subjectWiseData).length) {
+                    // Show the first question of the next subject
+                    showNextQuestion();
+                } else {
+                    // No more subjects, display a message or handle as needed
+                    alert("End of questions.");
+                }
+            }
+        }
+    
+        // Initial load
+        showNextQuestion();
+    </script>
+    
+    </body>
+    </html>
