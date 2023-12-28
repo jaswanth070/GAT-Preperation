@@ -1,42 +1,404 @@
-[
-  {
-    "image_link": "./10_files/mee 35.png",
-    "correct_answer": "2abz"
-  },
-  {
-    "image_link": "./10_files/mee 36.png",
-    "correct_answer": "log(e\u00b2\u02e3+1)-x+c"
-  },
-  {
-    "image_link": "./10_files/mee 37.png",
-    "correct_answer": "1/2sinh\u207b\u00b9(2x-1)+c"
-  },
-  {
-    "image_link": "./10_files/mee 38.png",
-    "correct_answer": "xlogx-x+c"
-  },
-  {
-    "image_link": "./10_files/mee 39.png",
-    "correct_answer": "1"
-  },
-  {
-    "image_link": "./10_files/mee 40.png",
-    "correct_answer": "16/3 sq. units"
-  },
-  {
-    "image_link": "./10_files/mee 41.png",
-    "correct_answer": "\u03c0/4"
-  },
-  {
-    "image_link": "./10_files/mee 42.png",
-    "correct_answer": "1/2tan\u207b\u00b9(2x)+c"
-  },
-  {
-    "image_link": "./10_files/mee 43.png",
-    "correct_answer": "1"
-  },
-  {
-    "image_link": "./10_files/mee 44.png",
-    "correct_answer": "Order=1,degree=2"
-  }
-]
+{
+  "Maths": [
+    {
+      "image_link": "./1_files/m1.png",
+      "correct_answer": "1/2"
+    },
+    {
+      "image_link": "./1_files/m4.png",
+      "correct_answer": "0"
+    },
+    {
+      "image_link": "./1_files/m5.png",
+      "correct_answer": "symmetric matrix"
+    },
+    {
+      "image_link": "./1_files/m6.png",
+      "correct_answer": "-1"
+    },
+    {
+      "image_link": "./1_files/m7.png",
+      "correct_answer": "15/9"
+    },
+    {
+      "image_link": "./1_files/m8.png",
+      "correct_answer": "163/12"
+    },
+    {
+      "image_link": "./1_files/m9.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./1_files/m10.png",
+      "correct_answer": "5"
+    },
+    {
+      "image_link": "./1_files/m11.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./1_files/m12.png",
+      "correct_answer": "45\u00b0"
+    },
+    {
+      "image_link": "./2_files/m13.png",
+      "correct_answer": "3/16"
+    },
+    {
+      "image_link": "./2_files/m14.png",
+      "correct_answer": "84 sq. units"
+    },
+    {
+      "image_link": "./2_files/m15.png",
+      "correct_answer": "\u03c0/2"
+    },
+    {
+      "image_link": "./2_files/m17.png",
+      "correct_answer": "\u03c0/4"
+    },
+    {
+      "image_link": "./2_files/m18.png",
+      "correct_answer": "2"
+    },
+    {
+      "image_link": "./2_files/m19.png",
+      "correct_answer": "9"
+    },
+    {
+      "image_link": "./2_files/m20.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./2_files/m21.png",
+      "correct_answer": "\u221a2"
+    },
+    {
+      "image_link": "./2_files/m22.png",
+      "correct_answer": "\u221a61/5"
+    },
+    {
+      "image_link": "./2_files/m23.png",
+      "correct_answer": "x-y+4=0"
+    },
+    {
+      "image_link": "./3_files/m25.png",
+      "correct_answer": "(4,-\u221a6)"
+    },
+    {
+      "image_link": "./3_files/m26.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./3_files/m28.png",
+      "correct_answer": "-1"
+    },
+    {
+      "image_link": "./3_files/m29.png",
+      "correct_answer": "x-4y-12=0"
+    },
+    {
+      "image_link": "./3_files/m30.png",
+      "correct_answer": "x+2y=3a"
+    },
+    {
+      "image_link": "./3_files/m31.png",
+      "correct_answer": "tan\u207b\u00b9(3)"
+    },
+    {
+      "image_link": "./3_files/m32.png",
+      "correct_answer": "1/e"
+    },
+    {
+      "image_link": "./3_files/m35.png",
+      "correct_answer": "2abz"
+    },
+    {
+      "image_link": "./3_files/m37.png",
+      "correct_answer": "1/2 sinh\u207b\u00b9(2x-1)+c"
+    },
+    {
+      "image_link": "./3_files/m38.png",
+      "correct_answer": "xlogx-x+c"
+    },
+    {
+      "image_link": "./4_files/m39.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./4_files/m40.png",
+      "correct_answer": "16/3 sq.units"
+    },
+    {
+      "image_link": "./4_files/m41.png",
+      "correct_answer": "\u03c0/4"
+    },
+    {
+      "image_link": "./4_files/m43.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./4_files/m44.png",
+      "correct_answer": "Order=1,degree=2"
+    },
+    {
+      "image_link": "./4_files/m45.png",
+      "correct_answer": "ysinx=2x\u00b2+c"
+    },
+    {
+      "image_link": "./4_files/m47.png",
+      "correct_answer": "e\u02e3/6"
+    },
+    {
+      "image_link": "./4_files/m48.png",
+      "correct_answer": "-1/30(2cos3x+sin3x)"
+    },
+    {
+      "image_link": "./4_files/m49.png",
+      "correct_answer": "1/xy=-x+c"
+    },
+    {
+      "image_link": "./4_files/m38.png",
+      "correct_answer": "xlogx-x+c"
+    },
+    {
+      "image_link": "./5_files/me 2.png",
+      "correct_answer": "A\u00b2"
+    },
+    {
+      "image_link": "./5_files/me 4.png",
+      "correct_answer": "A\u2076"
+    },
+    {
+      "image_link": "./5_files/me 5.png",
+      "correct_answer": "2"
+    },
+    {
+      "image_link": "./5_files/me 6.png",
+      "correct_answer": "25/4"
+    },
+    {
+      "image_link": "./5_files/me 7.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./5_files/me 11.png",
+      "correct_answer": "x=y=z"
+    },
+    {
+      "image_link": "./5_files/me 12.png",
+      "correct_answer": "1/6"
+    },
+    {
+      "image_link": "./5_files/me 13.png",
+      "correct_answer": "1:2:3"
+    },
+    {
+      "image_link": "./5_files/me 14.png",
+      "correct_answer": "56/33"
+    },
+    {
+      "image_link": "./5_files/me 16.png",
+      "correct_answer": "1:2cos10\u00b0"
+    },
+    {
+      "image_link": "./6_files/me 18.png",
+      "correct_answer": "-1/i+1"
+    },
+    {
+      "image_link": "./6_files/me 19.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./6_files/me 22.png",
+      "correct_answer": "2,2"
+    },
+    {
+      "image_link": "./6_files/me 23.png",
+      "correct_answer": "a<4"
+    },
+    {
+      "image_link": "./6_files/me 26.png",
+      "correct_answer": "10"
+    },
+    {
+      "image_link": "./6_files/me 27.png",
+      "correct_answer": "6"
+    },
+    {
+      "image_link": "./6_files/me 28.png",
+      "correct_answer": "1/2"
+    },
+    {
+      "image_link": "./6_files/me 32.png",
+      "correct_answer": "\u03c0/2"
+    },
+    {
+      "image_link": "./6_files/me 33.png",
+      "correct_answer": "3%"
+    },
+    {
+      "image_link": "./6_files/me 34.png",
+      "correct_answer": "2"
+    },
+    {
+      "image_link": "./7_files/me 29.png",
+      "correct_answer": "m\u00b2/n\u00b2"
+    },
+    {
+      "image_link": "./7_files/me 30.png",
+      "correct_answer": "5-2x for 2"
+    },
+    {
+      "image_link": "./7_files/me 31.png",
+      "correct_answer": "1/x(1+logy)"
+    },
+    {
+      "image_link": "./7_files/me 37.png",
+      "correct_answer": "a+b=4"
+    },
+    {
+      "image_link": "./7_files/me 40.png",
+      "correct_answer": "-25f(x)"
+    },
+    {
+      "image_link": "./7_files/me 43.png",
+      "correct_answer": "9"
+    },
+    {
+      "image_link": "./7_files/me 44.png",
+      "correct_answer": "2"
+    },
+    {
+      "image_link": "./7_files/me 47.png",
+      "correct_answer": "Not defined"
+    },
+    {
+      "image_link": "./7_files/me 49.png",
+      "correct_answer": "1/4xcos2x"
+    },
+    {
+      "image_link": "./7_files/me 50.png",
+      "correct_answer": "-1/y\u2074"
+    },
+    {
+      "image_link": "./8_files/mee 01.png",
+      "correct_answer": "1/2"
+    },
+    {
+      "image_link": "./8_files/mee 04.png",
+      "correct_answer": "0"
+    },
+    {
+      "image_link": "./8_files/mee 05.png",
+      "correct_answer": "symmetric matrix"
+    },
+    {
+      "image_link": "./8_files/mee 06.png",
+      "correct_answer": "-1"
+    },
+    {
+      "image_link": "./8_files/mee 07.png",
+      "correct_answer": "15/9"
+    },
+    {
+      "image_link": "./8_files/mee 09.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./8_files/mee 10.png",
+      "correct_answer": "5"
+    },
+    {
+      "image_link": "./8_files/mee 11.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./8_files/mee 12.png",
+      "correct_answer": "45\u00b0"
+    },
+    {
+      "image_link": "./8_files/mee 13.png",
+      "correct_answer": "3/16"
+    },
+    {
+      "image_link": "./9_files/mee 15.png",
+      "correct_answer": "\u03c0/2"
+    },
+    {
+      "image_link": "./9_files/mee 17.png",
+      "correct_answer": "\u03c0/4"
+    },
+    {
+      "image_link": "./9_files/mee 18.png",
+      "correct_answer": "2"
+    },
+    {
+      "image_link": "./9_files/mee 21.png",
+      "correct_answer": "\u221a2"
+    },
+    {
+      "image_link": "./9_files/mee 22.png",
+      "correct_answer": "\u221a61/5"
+    },
+    {
+      "image_link": "./9_files/mee 26.png",
+      "correct_answer": "3"
+    },
+    {
+      "image_link": "./9_files/mee 27.png",
+      "correct_answer": "4x-3y/3x-8y"
+    },
+    {
+      "image_link": "./9_files/mee 28.png",
+      "correct_answer": "-1"
+    },
+    {
+      "image_link": "./9_files/mee 31.png",
+      "correct_answer": "tan\u207b\u00b9(3)"
+    },
+    {
+      "image_link": "./9_files/mee 32.png",
+      "correct_answer": "1/e"
+    },
+    {
+      "image_link": "./10_files/mee 35.png",
+      "correct_answer": "2abz"
+    },
+    {
+      "image_link": "./10_files/mee 36.png",
+      "correct_answer": "log(e\u00b2\u02e3+1)-x+c"
+    },
+    {
+      "image_link": "./10_files/mee 37.png",
+      "correct_answer": "1/2sinh\u207b\u00b9(2x-1)+c"
+    },
+    {
+      "image_link": "./10_files/mee 38.png",
+      "correct_answer": "xlogx-x+c"
+    },
+    {
+      "image_link": "./10_files/mee 39.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./10_files/mee 40.png",
+      "correct_answer": "16/3 sq. units"
+    },
+    {
+      "image_link": "./10_files/mee 41.png",
+      "correct_answer": "\u03c0/4"
+    },
+    {
+      "image_link": "./10_files/mee 42.png",
+      "correct_answer": "1/2tan\u207b\u00b9(2x)+c"
+    },
+    {
+      "image_link": "./10_files/mee 43.png",
+      "correct_answer": "1"
+    },
+    {
+      "image_link": "./10_files/mee 44.png",
+      "correct_answer": "Order=1,degree=2"
+    }
+  ]
+}

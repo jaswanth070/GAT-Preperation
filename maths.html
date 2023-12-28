@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATHS - Jaswanth Madiya</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin-top: 12%;
+            align-items: center;
+            text-align: center;
+            background-color: rgb(33, 23, 37);
+            color: #fff;
+        }
+
+        #question-container {
+            margin: 0 auto;
+            /* max-width: 800px; */
+            /* width: 100%; */
+        }
+
+        .subject-name {
+            font-size: 32px;
+            background-color: bisque;
+            padding: 5px;
+            border-radius: 10px;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        #question {
+            background-color: aliceblue;
+            color:black;
+            padding: 40px;
+            border-radius: 40px;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #answer {
+            background-color: green;
+            color: aliceblue;
+            padding: 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .navigation-button {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #previous-button {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        #next-button {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            body {
+                margin-top: 50%;
+            }
+
+            #question-container {
+                padding: 10px;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div id="question-container">
+        <select class="subject-name" id="subject-dropdown" onchange="loadQuestionsBySubject()">
+            <!-- Options will be dynamically populated by JavaScript -->
+        </select>
+        <img id="question" src=""></img>
+        <div id="answer"></div>
+        <div id="navigation-buttons">
+            <button id="previous-button" class="navigation-button" onclick="showPreviousQuestion()">Previous</button>
+            <button id="next-button" class="navigation-button" onclick="showNextQuestion()">Next</button>
+        </div>
+        
+    </div>
+    <footer style="background-color: #333; color: #fff; padding: 10px; position: fixed; bottom: 0; width: 100%;">
+        &copy; 2023 All Rights to Jaswanth Madiya
+    </footer>
+
+    <script>
+        // Load JSON data from the file
+        async function loadJSONData() {
+            const response = await fetch('maths.json');
+            const data = await response.json();
+            return data;
+        }
+
+        let subjectWiseData;
+        let currentSubjectIndex = 0;
+        let currentQuestionIndex = 0;
+
+        async function loadQuestionsBySubject() {
+            const subjectDropdown = document.getElementById("subject-dropdown");
+            const selectedSubject = subjectDropdown.value;
+
+            if (subjectWiseData && subjectWiseData[selectedSubject]) {
+                currentSubjectIndex = Object.keys(subjectWiseData).indexOf(selectedSubject);
+                currentQuestionIndex = 0;
+                showNextQuestion();
+            }
+        }
+
+        async function showPreviousQuestion() {
+            if (!subjectWiseData) {
+                subjectWiseData = await loadJSONData();
+            }
+
+            const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
+            const currentQuestions = subjectWiseData[currentSubject];
+
+            if (currentQuestionIndex > 0) {
+                // Show the previous question
+                currentQuestionIndex--;
+                const currentQuestion = currentQuestions[currentQuestionIndex];
+                // document.getElementById("subject-name").textContent = currentSubject;
+                document.getElementById("question").src = currentQuestion.image_link;
+                document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
+            } else {
+                // If already at the first question, show a message or handle as needed
+                alert("This is the first question.");
+            }
+        }
+
+        async function showNextQuestion() {
+            if (!subjectWiseData) {
+                subjectWiseData = await loadJSONData();
+            }
+
+            const currentSubject = Object.keys(subjectWiseData)[currentSubjectIndex];
+            const currentQuestions = subjectWiseData[currentSubject];
+
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                // Show the next question
+                currentQuestionIndex++;
+                const currentQuestion = currentQuestions[currentQuestionIndex];
+                // document.getElementById("subject-name").textContent = currentSubject;
+                document.getElementById("question").src = currentQuestion.image_link;
+                document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
+            } else {
+                // Move to the next subject
+                currentSubjectIndex++;
+                currentQuestionIndex = 0;
+
+                if (currentSubjectIndex < Object.keys(subjectWiseData).length) {
+                    // Show the first question of the next subject
+                    showNextQuestion();
+                } else {
+                    // No more subjects, display a message or handle as needed
+                    alert("End of questions.");
+                }
+            }
+        }
+
+        // Initial load
+        async function initialize() {
+            subjectWiseData = await loadJSONData();
+            const subjectDropdown = document.getElementById("subject-dropdown");
+
+            // Populate subject dropdown options
+            Object.keys(subjectWiseData).forEach((subject) => {
+                const option = document.createElement("option");
+                option.value = subject;
+                option.textContent = subject;
+                subjectDropdown.appendChild(option);
+            });
+
+            // Load questions for the initial subject
+            loadQuestionsBySubject();
+        }
+
+        initialize();
+    </script>
+
+</body>
+
+</html>

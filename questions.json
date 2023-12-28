@@ -1,0 +1,2796 @@
+{
+    "Digital Electronics": [
+        {
+            "question": "Which gates are suitable for bit comparison?",
+            "correct_answer": "XNOR"
+        },
+        {
+            "question": "The sum expression in half adder is",
+            "correct_answer": "X EXORY Y"
+        },
+        {
+            "question": "The difference bit output of a half substractor is same as",
+            "correct_answer": "Difference bit of a full substractor"
+        },
+        {
+            "question": "The carry expression in half adder is",
+            "correct_answer": "XY"
+        },
+        {
+            "question": "A full adder can be realised by",
+            "correct_answer": "Two half adder,one or gates"
+        },
+        {
+            "question": "The number of full adders in a4-bit parallel adder is",
+            "correct_answer": "4"
+        },
+        {
+            "question": "The number of full adders required to add 4-bit data in serial adder is",
+            "correct_answer": "1"
+        },
+        {
+            "question": "MUX is_______implementation",
+            "correct_answer": "AND-OR"
+        },
+        {
+            "question": "ROM is________implementation",
+            "correct_answer": "Either AND-OR- or AND-OR-NOT"
+        },
+        {
+            "question": "The speed of sequential circuits is_______in comparision with combinational circuits",
+            "correct_answer": "Slow"
+        },
+        {
+            "question": "Which of the is an example for sequential circuit",
+            "correct_answer": "Serial adder"
+        },
+        {
+            "question": "Expression for 3-input full adder is,where A,B,C are the inputs",
+            "correct_answer": "A XOR B XOR C"
+        },
+        {
+            "question": "Serial adder is designed by using",
+            "correct_answer": "A full adder"
+        },
+        {
+            "question": "The characterstic equation of RS-Flipflop",
+            "correct_answer": "S+R'Q"
+        },
+        {
+            "question": "What will be the percentage resolution of 5-bit D/A converter",
+            "correct_answer": "3.23"
+        },
+        {
+            "question": "In a 6-bit A/D converter the maximum precision supply voltage will be 1.2V. What voltage will 100110 represent",
+            "correct_answer": "12.06V"
+        },
+        {
+            "question": "State number of Non Zero states for a 12-bit D/A Converters",
+            "correct_answer": "4095"
+        },
+        {
+            "question": "For building a 5-bit simultaneosuly A/D converter,how many Comparators will be required",
+            "correct_answer": "32"
+        },
+        {
+            "question": "Which of the following changes the analog voltage to Binary data?",
+            "correct_answer": "A/D converter"
+        },
+        {
+            "question": "Which converter has a Binary input?",
+            "correct_answer": "D/A converter"
+        },
+        {
+            "question": "Which of the following is the fastest A/D converter",
+            "correct_answer": "Comparator converter"
+        },
+        {
+            "question": "An A/D converter uses for reference purpose",
+            "correct_answer": "A sawtooth wave generator"
+        },
+        {
+            "question": "What will be the percentage resolution of 5-bit D/A converter?",
+            "correct_answer": "3.23"
+        },
+        {
+            "question": "In a 6-bit A/D converter the maximum precision supply voltage will be 1.2.V.What voltage will 100110 represent?",
+            "correct_answer": "12.06V"
+        },
+        {
+            "question": "State number of Non Zero states for a 12-bit D/A converters",
+            "correct_answer": "4095"
+        },
+        {
+            "question": "For building a 5-bit simultaneously A/D converter,how many comparators wil be required",
+            "correct_answer": "32"
+        },
+        {
+            "question": "Which of the following changes the analog voltage to binary data",
+            "correct_answer": "A/D converter"
+        },
+        {
+            "question": "Which converter has a binary input?",
+            "correct_answer": "D/A converter"
+        },
+        {
+            "question": "Expression for 3-input full adder is,where A,B,C are the inputs",
+            "correct_answer": "A XOR B XOR C"
+        },
+        {
+            "question": "Serial adder is designed by using",
+            "correct_answer": "Full adder and D-flipflop"
+        },
+        {
+            "question": "In a ring counter 1 for N clock pulses the scale for the counter is",
+            "correct_answer": "N:1"
+        },
+        {
+            "question": "To get a frequency of 1Hz with an input of 60Hz,we will use",
+            "correct_answer": "Divide by 12 counter"
+        },
+        {
+            "question": "If in a shift register Q0 (inverting input) is feedback to input the resulting counter is",
+            "correct_answer": "Twisted ring counter with 2N:1 scale"
+        },
+        {
+            "question": "A ring counter is same as",
+            "correct_answer": "Shift register"
+        },
+        {
+            "question": "Counter can be used in measurement of",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "Which of the following counter results least delay",
+            "correct_answer": "Synchronous counter"
+        },
+        {
+            "question": "In a ripple counter using edge triggered J-K Flipflops, The pulse input is applied to?",
+            "correct_answer": "Clock input of one flipflops"
+        },
+        {
+            "question": "Shifting a register to left by one bit position is equivalent to?",
+            "correct_answer": "Addition of 2"
+        },
+        {
+            "question": "In a shift register, the stage which is to star MSB is converted into",
+            "correct_answer": "D type latch"
+        },
+        {
+            "question": "In a digital counter the number of flipflops is",
+            "correct_answer": "None"
+        }
+    ],
+    "Micro Processors": [
+        {
+            "question": "CPU Stands for",
+            "correct_answer": "Central processing unit"
+        },
+        {
+            "question": "ALU stands for",
+            "correct_answer": "Arithmetic logic unit"
+        },
+        {
+            "question": "A programmable device similar to CPU",
+            "correct_answer": "Microprocessor"
+        },
+        {
+            "question": "Which of the following is a 16-bit microprocessor",
+            "correct_answer": "8086"
+        },
+        {
+            "question": "Which of the following microprocessor has 16 data lines",
+            "correct_answer": "8086"
+        },
+        {
+            "question": "8085 microprocessor has___________address lines",
+            "correct_answer": "16"
+        },
+        {
+            "question": "8085 microprocessor has data lines",
+            "correct_answer": "8"
+        },
+        {
+            "question": "Maximum memory which can be connected with 8085 microprocessor is",
+            "correct_answer": "64KB"
+        },
+        {
+            "question": "Program counter (PC)/Instruction pointer (IP) is used to",
+            "correct_answer": "Point the address of next instruction to be executed"
+        },
+        {
+            "question": "Stack pointer (SP) is a________bit register",
+            "correct_answer": "16"
+        },
+        {
+            "question": "8086 microprocessor has________pins",
+            "correct_answer": "40"
+        },
+        {
+            "question": "Which of the following is an interrupt pin of 8086 microprocessor",
+            "correct_answer": "NMI"
+        },
+        {
+            "question": "Which of the following is an interrupt pin of 8086 microprocessor",
+            "correct_answer": "TRAP"
+        },
+        {
+            "question": "Which flag is affected by data transfer instruction",
+            "correct_answer": "No"
+        },
+        {
+            "question": "Which of the following is not an I/O interfacing technique",
+            "correct_answer": "Memorymapped I/O"
+        },
+        {
+            "question": "Which of the following instruction is correct",
+            "correct_answer": "IN FF"
+        },
+        {
+            "question": "IN instruction requires___________T-states",
+            "correct_answer": "10"
+        },
+        {
+            "question": "OUT instruction requires__________T-states",
+            "correct_answer": "10"
+        },
+        {
+            "question": "CALL instruction requires_________T-states",
+            "correct_answer": "18"
+        },
+        {
+            "question": "Microprocessor find applications in",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "In Von-Neumann or Princeton type computer,the program",
+            "correct_answer": "Can appear anywhere within the memory"
+        },
+        {
+            "question": "The instruction cycle is made up of",
+            "correct_answer": "One or more fetch cycle"
+        },
+        {
+            "question": "The maximum integer which can be stored on an 8-bit accumulator",
+            "correct_answer": "255"
+        },
+        {
+            "question": "The______built on a single LSI/ULSI chip os called microprocessor",
+            "correct_answer": "CPU"
+        },
+        {
+            "question": "The 8085 has_______interrupt pins",
+            "correct_answer": "5"
+        },
+        {
+            "question": "The instruction MOV AX,0016H is an example of addressing mode",
+            "correct_answer": "Immediate"
+        },
+        {
+            "question": "The instruction MOV AX,[200H] is an example of-addressing mode",
+            "correct_answer": "I/O port"
+        },
+        {
+            "question": "The instruction IN AL, 19H is an example of_______addressing mode",
+            "correct_answer": "I/O port"
+        },
+        {
+            "question": "The instruction CMC is an example of________addressing mode",
+            "correct_answer": "Implicit"
+        },
+        {
+            "question": "In minimum mode of operation of 8086,________number of processors is used",
+            "correct_answer": "1"
+        }
+    ],
+    "Operating Systems": [
+        {
+            "question": "Which of the following scheduling algorithm gives minimum average waiting time?",
+            "correct_answer": "SJF"
+        },
+        {
+            "question": "Page fault occurs when?",
+            "correct_answer": "The page is not in main memory"
+        },
+        {
+            "question": "Determine the no. of page faults when references to pages occur in the following order 12452124 assume that the main memory can accommodate 3pages and the main memory already has the pages 1&2 with page 1 having brought earlier than page2(LRU algorithm is used).",
+            "correct_answer": "4"
+        },
+        {
+            "question": "Necessary conditions for deadlock are",
+            "correct_answer": "Both A&B"
+        },
+        {
+            "question": "At a particular time of computation the value of counting semaphore is 7.then 20 p operations and '\u00d7' v operations were completed on this semaphore. If the final value of the semaphore is 5,x will be",
+            "correct_answer": "18"
+        },
+        {
+            "question": "The structure that allows you to choose graphical symbols (or) pictures instead of typing\ncommand to do work on our PC is called a",
+            "correct_answer": "Symbolic screen"
+        },
+        {
+            "question": "To get the task manager window in Windows 95",
+            "correct_answer": "Press ALT-CTRL-DEL"
+        },
+        {
+            "question": "Statements is one are true",
+            "correct_answer": "Only ii & iv"
+        },
+        {
+            "question": "PCB is an abbreviation for process control block. The following five statements are related to PCB. Which of these is one are true?",
+            "correct_answer": "PCB is a Data Structure"
+        },
+        {
+            "question": "Which of the following is one are true about a process?",
+            "correct_answer": "A process is a program execution"
+        },
+        {
+            "question": "Which of the following statements is one are true with regard to threads?",
+            "correct_answer": "Multi threads use the same address space and share it between threads"
+        },
+        {
+            "question": "Which of the following is a true statement about a deadlock?",
+            "correct_answer": "None of the above"
+        },
+        {
+            "question": "Which is one are the correct statements with regard to page replacement and page replacing algorithms",
+            "correct_answer": "All the above"
+        },
+        {
+            "question": "Memory access by its contents is known as",
+            "correct_answer": "Associative memory"
+        },
+        {
+            "question": "The operating system controls",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "Suppose a system has equivalents tape drives three concurrent process p1, p2 & p3 require three , two and four of these tape drives respectively. To complete their execution. At a given instance two and one of the these process p1, p2 & p3 respectively. 17. In a paged memory system let Which of the following allocations will bring the system to an unsafe state?",
+            "correct_answer": "Allocation two tape drives to process \u04403"
+        },
+        {
+            "question": "In a paged memory system let w-0,4,1,4, 1,5,1,6,2,6,3,6, 2,6,4,5 be a page reference stream. Assuming that the main memory can have only 3 pages frames and all the page frames are initially empty, new many page faults will the given reference stream incur if the FIFO replacement strategy is used?",
+            "correct_answer": "9"
+        },
+        {
+            "question": "Critical region is",
+            "correct_answer": "A set of instructions that access common shared resources which exclude one another in time"
+        },
+        {
+            "question": "Djakarta's banking algorithm in an Os solves the problem of",
+            "correct_answer": "Deadlock avoidance"
+        },
+        {
+            "question": "Direct access methods are not effectively supported by",
+            "correct_answer": "Linked allocation"
+        },
+        {
+            "question": "Attach (or) Detach remote devices is the following type of system call",
+            "correct_answer": "Device management"
+        },
+        {
+            "question": "Mail box provides",
+            "correct_answer": "A OR B"
+        },
+        {
+            "question": "Disadvantage of the fixed partitioning of memory is",
+            "correct_answer": "Internal fragmentation"
+        },
+        {
+            "question": "Select the method which is not used for free space management",
+            "correct_answer": "Inverted List"
+        },
+        {
+            "question": "The following disk scheduling algorithm perform better for systems that place heavy\n          load on the disk",
+            "correct_answer": "C-SCAN"
+        },
+        {
+            "question": "Which of the following page replacement algorithms exhibits belady's anomaly?",
+            "correct_answer": "FIFO"
+        },
+        {
+            "question": "To avoid race condition the no.of processes that can be allowed to be simultaneously inside the critical\n          section is",
+            "correct_answer": "2"
+        },
+        {
+            "question": "What is meant by a process?",
+            "correct_answer": "A program written in high level language & stored on the disk"
+        },
+        {
+            "question": "A computer system cannot boot if the______is not available on it",
+            "correct_answer": "Loader"
+        },
+        {
+            "question": "What is the use of job control language (JCL) statements?",
+            "correct_answer": "Inform the OS, the start and end of a job in a match"
+        },
+        {
+            "question": "Attach (or) Detach remote devices is the following type of system call",
+            "correct_answer": "Device management"
+        },
+        {
+            "question": "Mail box provides",
+            "correct_answer": "A OR B"
+        },
+        {
+            "question": "Disadvantage of the fixed partitioning of memory is",
+            "correct_answer": "Internal fragmentation"
+        },
+        {
+            "question": "Select the method which is not used for free space management",
+            "correct_answer": "Inverted List"
+        },
+        {
+            "question": "The following disk scheduling algorithm perform better for systems that place heavy\nload on the disk",
+            "correct_answer": "C-SCAN"
+        },
+        {
+            "question": "Which of the following page replacement algorithms exhibits belady's anomaly?",
+            "correct_answer": "FIFO"
+        },
+        {
+            "question": "To avoid race condition the no.of processes that can be allowed to be simultaneously inside the critical section is",
+            "correct_answer": "2"
+        },
+        {
+            "question": "What is meant by a process?",
+            "correct_answer": "A program written in high level language & stored on the disk"
+        },
+        {
+            "question": "A computer system cannot boot if the______is not available on it",
+            "correct_answer": "Loader"
+        },
+        {
+            "question": "What is the use of job control language (JCL) statements?",
+            "correct_answer": "Inform the OS, the start and end of a job in a match"
+        }
+    ],
+    "C Programming": [
+        {
+            "question": "In which header file is the NULL macro defined?",
+            "correct_answer": "stdio.h and stddef.h"
+        },
+        {
+            "question": "How many bytes are occupied by near, far and huge pointers (DOS)?",
+            "correct_answer": "near=2 far=4 huge=4"
+        },
+        {
+            "question": "If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?",
+            "correct_answer": "->"
+        },
+        {
+            "question": "What would be the equivalent pointer expression for referring the array element?\na) [i]U][k]U]",
+            "correct_answer": "*(*(*(*(a+i)+j)+k)+|)"
+        },
+        {
+            "question": "A pointer is?",
+            "correct_answer": "A variable that stores address of other variable"
+        },
+        {
+            "question": "The operator used to get value at address stored in a pointer variable is",
+            "correct_answer": "*"
+        },
+        {
+            "question": "Which of the following function sets first n characters of a string to a given character?",
+            "correct_answer": "strnset) y"
+        },
+        {
+            "question": "If the two strings are identical, then strcmp() function returns",
+            "correct_answer": "0"
+        },
+        {
+            "question": "How will you print \\n on the screen?",
+            "correct_answer": "printf(\"\\\\n\");"
+        },
+        {
+            "question": "The library function used to find the last Occurrence of a character in a string is",
+            "correct_answer": "strrchr()"
+        },
+        {
+            "question": "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1?",
+            "correct_answer": "rem = fmod(3.14, 2.1);"
+        },
+        {
+            "question": "What are the types of linkages?",
+            "correct_answer": "External, Internal and None"
+        },
+        {
+            "question": "Which of the following special symbol allowed in a variable name?",
+            "correct_answer": "_ (underscore)"
+        },
+        {
+            "question": "Is there any difference between following declarations?\n1: extern int fun();\n2: int fun();",
+            "correct_answer": "No difference, except extern int fun(); is probably in another file"
+        },
+        {
+            "question": "How would you round off a value from 1.66 to 2.0?",
+            "correct_answer": "ceil(1.66)"
+        },
+        {
+            "question": "By default a real number is treated as a?",
+            "correct_answer": "Double"
+        },
+        {
+            "question": "Which of the following is not user defined data type?\n1:\n  struct book\n  {\n  char name [10];\n  float price;\n  int pages;\n  };\n2: long int I = 2.35;\n3: enum day {Sun, Mon, Tue, Wed);",
+            "correct_answer": "2"
+        },
+        {
+            "question": "Is the following statement a declaration or definition?\n(extern int i;)",
+            "correct_answer": "Declaration"
+        },
+        {
+            "question": "Identify which of the following are declarations?\n1: extern int x;\n2: float square ( float x ) { ... }\n3: double pow(double, double);",
+            "correct_answer": "1 and 3 *"
+        },
+        {
+            "question": "In the following program where is the variable a getting defined and where it is getting declared?\n#includeint main ()\n{\nextern int a;\nprinf(\"%d\\n\", a);\nreturn 0;\n}\nint a=20;",
+            "correct_answer": "extern int a is declaration, int a = 20 is the definition"
+        },
+        {
+            "question": "Where we mention the prototype of a function?",
+            "correct_answer": "Declaring"
+        },
+        {
+            "question": "Which of the following correctly shows the hierarchy of arithmetic operations in C?",
+            "correct_answer": "/ * + -"
+        },
+        {
+            "question": "Which of the following is the correct order if calling functions in the below code?\na = f1(23, 14) * f2(12/4) + f3();",
+            "correct_answer": "Order may vary from compiler to compiler"
+        },
+        {
+            "question": "Which of the following is the correct usage of conditional operators used in C?",
+            "correct_answer": "max =a>b ? a>c?a:c:b>c?b:c"
+        },
+        {
+            "question": "Which of the following are unary operators in C?\n1.!\n2.sizeof\n3.~\n4.&&",
+            "correct_answer": "1, 2, 3"
+        },
+        {
+            "question": "In which order do the following gets evaluated?\n1. Relational\n2.Arithmetic\n3.Logical\n4.Assignment",
+            "correct_answer": "2134"
+        },
+        {
+            "question": "The keyword used to transfer control from a function back to the calling function is?",
+            "correct_answer": "return"
+        },
+        {
+            "question": "How many times the program will print \"krishna\" ?\n#includeint main ()\n{\nprintff\"krishna\");\nmain();\nreturn 0;",
+            "correct_answer": "Till stack overflows"
+        },
+        {
+            "question": "What is (void*)0?",
+            "correct_answer": "Representation of NULL pointer"
+        },
+        {
+            "question": "Can you combine the following two statements into one?\nchar *p;\np = (char*) malloc (100);",
+            "correct_answer": "char *p = (char*) malloc(100);"
+        },
+        {
+            "question": "Which of the following function is used to find the first occurrence of a given string in another string?",
+            "correct_answer": "strstr()"
+        },
+        {
+            "question": "Which of the following function is more appropriate for reading in a multi-word string?",
+            "correct_answer": "gets();"
+        },
+        {
+            "question": "What will the function rewind() do?",
+            "correct_answer": "Reposition the file pointer to begining of file"
+        },
+        {
+            "question": "Input/output function prototypes and macros are defined in which header file?",
+            "correct_answer": "stdio.h"
+        },
+        {
+            "question": "Which standard library function will you use to find the last occurance of a character in a string in C?",
+            "correct_answer": "strrchr()"
+        },
+        {
+            "question": "What is stderr?",
+            "correct_answer": "Standard error streams"
+        },
+        {
+            "question": "Does there any function exist to convert the int or float to a string?",
+            "correct_answer": "Yes"
+        },
+        {
+            "question": "What is the purpose of fflush() function.",
+            "correct_answer": "Flushes all streams and specified streams"
+        },
+        {
+            "question": "Can you use the fprintf() to display the output on the screen?",
+            "correct_answer": "Yes"
+        },
+        {
+            "question": "What will the function randomize() do in Turbo C under DOS?",
+            "correct_answer": "Returns a random number generator with a random value based on time"
+        }
+    ],
+    "Data Structures": [
+        {
+            "question": "Which if the following is/are the levels of implementation of data structure",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "A binary search tree whose left subtree and right subtree differ in Hight by at most 1 unit is called ......",
+            "correct_answer": "AVL tree"
+        },
+        {
+            "question": "___________ level is where the model becomes compatible executable code",
+            "correct_answer": "Implementation level"
+        },
+        {
+            "question": "Stack is also called as",
+            "correct_answer": "Last in first out"
+        },
+        {
+            "question": "Which of the following is true about the characteristics of abstract data types?\ni) It exports a type.\nii) It exports a set of operations",
+            "correct_answer": "True, True"
+        },
+        {
+            "question": "___________ is not the component of data structure.",
+            "correct_answer": "None of above"
+        },
+        {
+            "question": "Which of the following is not the part of ADT description?",
+            "correct_answer": "None of the above"
+        },
+        {
+            "question": "Inserting an item into the stack when stack is not full is called _________ Operation and deletion of item form the stack, when stack is not empty is called  _______ operation.",
+            "correct_answer": "push, pop"
+        },
+        {
+            "question": "___________ Is a pile in which items are added at one end and removed from the other.",
+            "correct_answer": "Queue"
+        },
+        {
+            "question": "___________ is very useful in situation when data have to stored and then retrieved in reverse order.",
+            "correct_answer": "Queue"
+        },
+        {
+            "question": "Which data structure allows deleting data elements from and inserting at rear?",
+            "correct_answer": "Queues"
+        },
+        {
+            "question": "Which of the following data structure can't store the non-homogeneous data elements?",
+            "correct_answer": "Arrays"
+        },
+        {
+            "question": "A  ___________is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out.",
+            "correct_answer": "Queue linked list"
+        },
+        {
+            "question": "Which of the following is non-liner data structure?",
+            "correct_answer": "Trees"
+        },
+        {
+            "question": "Herder node is used as sentinel in  ___________",
+            "correct_answer": "Binary tree"
+        },
+        {
+            "question": "Which data structure is used in breadth first search of a graph to hold nodes?",
+            "correct_answer": "queue"
+        },
+        {
+            "question": "Identify the data structure which allows deletions at both ends of the list but insertion at only one end.",
+            "correct_answer": "Input restricted dequeue"
+        },
+        {
+            "question": "Which of the following data structure is non linear type?",
+            "correct_answer": "Graph"
+        },
+        {
+            "question": "Which cf the following data structure is linear type?",
+            "correct_answer": "Stack"
+        },
+        {
+            "question": "To represent hierarchical relationship between elements, Which data structure is suitable?",
+            "correct_answer": "Tree"
+        },
+        {
+            "question": "A directed graph is every on. If there is, path from each vertex to every other vertex in the digraph.",
+            "correct_answer": "Strongly Connected"
+        },
+        {
+            "question": "In the ___________ traversal we process all of a vertex's descendants before we move to an adjacent vertex.",
+            "correct_answer": "Depth First"
+        },
+        {
+            "question": "State True of False.\ni) Network is a graph that has weights or costs associated with it.\nii) An undirected graph which contains no cycles is called a forest.\nill) A graph is said to be complete if there is no edge between every pair of vertices.",
+            "correct_answer": "True, True, False"
+        },
+        {
+            "question": "Match the following.\na) Completeness i) How long does it take to find a solution\nb) Time Complexity i) How much memory need to perform the search.\nc) Space Complexity ill) Is the strategy guaranteed to find the solution when there in\none.",
+            "correct_answer": "a-iii, b-i, c-ii"
+        },
+        {
+            "question": "The number of comparisons done by sequential search is ___________",
+            "correct_answer": "(N+1)/2"
+        },
+        {
+            "question": "In ______ search start at the beginning of he list and check every element in the list.",
+            "correct_answer": "Linear search"
+        },
+        {
+            "question": "State True or False. \ni)Binary search is used for searching in a sorted array.\ni)The time complexity of binary search is O(logn).",
+            "correct_answer": "True, True"
+        },
+        {
+            "question": "Which of the following is not the internal sort?",
+            "correct_answer": "Merge Sort"
+        },
+        {
+            "question": "State True or False.\ni)An undirected graph which contains no cycles is called forest.\nii) A graph is said to be complete if there is an edge between every pair of vertices.",
+            "correct_answer": "True, True"
+        },
+        {
+            "question": "A graph is said to be ___________ it the vertices can be split into two sets V1 and V2 such there are no edges between two vertices of V1 or two vertices of V2.",
+            "correct_answer": "Bipartite"
+        },
+        {
+            "question": "In a queue, the initial values of front pointer f rare pointer r should be ............. and ......... respectively.",
+            "correct_answer": "0 and -1"
+        },
+        {
+            "question": "In a circular queue the value of r will be ___________",
+            "correct_answer": "r= (r+1)% QUEUE_SIZE"
+        },
+        {
+            "question": "Which of the following statement is true?\ni) Using singly linked lists and circular list, it is not possible to traverse the list backwards. \nii) To find the predecessor, it is required to traverse the list from the first node in case of singly linked list.",
+            "correct_answer": "Both i and ii"
+        },
+        {
+            "question": "The advantage of ............ is that they solve the problem if sequential storage representation. But disadvantage in that is they are sequential lists.",
+            "correct_answer": "Linked Lists"
+        },
+        {
+            "question": "What will be the value of top, if there is a size of stack STACK_SIZE is 5",
+            "correct_answer": "4"
+        },
+        {
+            "question": "........ is not the operation that can be performed on queue.",
+            "correct_answer": "Traversal"
+        },
+        {
+            "question": "There is an extra element at the head of the list called a ......",
+            "correct_answer": "Sentinel"
+        },
+        {
+            "question": "A graph is a collection of nodes, called .......... And line segments called arcs or .............. that connect pair of nodes.",
+            "correct_answer": "vertices, edges"
+        },
+        {
+            "question": "A ....... is a graph that has weights of costs associated with its edges.",
+            "correct_answer": "Both A and B"
+        },
+        {
+            "question": "In general, the binary search method needs no more than ___________ comparisons.",
+            "correct_answer": "[log2n]+1"
+        }
+    ],
+    "Computer Networks": [
+        {
+            "question": "Computer Network is",
+            "correct_answer": "All of the Above"
+        },
+        {
+            "question": "What is a Firewall in Computer Network?",
+            "correct_answer": "A system designed to prevent unauthorized access"
+        },
+        {
+            "question": "How many layers does OSI Reference Model has?",
+            "correct_answer": "7"
+        },
+        {
+            "question": "DHCP is the abbreviation of",
+            "correct_answer": "Dynamic Host Configuration Protocol"
+        },
+        {
+            "question": "IPV4 Address is",
+            "correct_answer": "32 bit"
+        },
+        {
+            "question": "DNS is the abbreviation of",
+            "correct_answer": "Domain Name System"
+        },
+        {
+            "question": "What is the meaning of Bandwidth in Network?",
+            "correct_answer": "Transmission capacity of a communication channels"
+        },
+        {
+            "question": "ADSL is the abbreviation of",
+            "correct_answer": "Asymmetric Digital Subscriber Line"
+        },
+        {
+            "question": "What is the use of Bridge in Network?",
+            "correct_answer": "to connect LANs"
+        },
+        {
+            "question": "Router operates in which layer of OSl Reference Model?",
+            "correct_answer": "Layer 3 (Network Layer)"
+        },
+        {
+            "question": "Each IP packet must contain",
+            "correct_answer": "Source and Destination address"
+        },
+        {
+            "question": "Bridge works in which layer of the OSI model?",
+            "correct_answer": "Datalink layer"
+        },
+        {
+            "question": "_____________ provides a connection-oriented reliable service for sending messages",
+            "correct_answer": "TCP"
+        },
+        {
+            "question": "Which layers of the OS model are host-to-host layers?",
+            "correct_answer": "Transport, Session, Presentation, Application"
+        },
+        {
+            "question": "Which of the following IP address class is Multicast",
+            "correct_answer": "Class D"
+        },
+        {
+            "question": "Which of the following is correct regarding Class B Address of IP address",
+            "correct_answer": "Network bit - 14, Host bit - 16"
+        },
+        {
+            "question": "The last address of IP address represents",
+            "correct_answer": "Broadcast address"
+        },
+        {
+            "question": "How many bits are there in the Ethernet address?",
+            "correct_answer": "48 bits"
+        },
+        {
+            "question": "How many layers are in the TCP/IP model?",
+            "correct_answer": "4 layers"
+        },
+        {
+            "question": "Which of the following laver of OSI model also called end-to-end layer?",
+            "correct_answer": "Transport laver"
+        },
+        {
+            "question": "Why IP Protocol is considered as unreliable?",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "All of the above",
+            "correct_answer": "20 bytes"
+        },
+        {
+            "question": "Which of following provides reliable communication?",
+            "correct_answer": "TCP"
+        },
+        {
+            "question": "What is the address size of IPv6 ?",
+            "correct_answer": "128 bit"
+        },
+        {
+            "question": "What is the size of Network bits & Host bits of Class A of IP address?",
+            "correct_answer": "Network bits 7, Host bits 24"
+        },
+        {
+            "question": "What does Router do in a network?",
+            "correct_answer": "Determines on which outing link a packet is to be forwarded"
+        },
+        {
+            "question": "The Internet is an example of",
+            "correct_answer": "Packet switched network"
+        },
+        {
+            "question": "What does protocol defines?",
+            "correct_answer": "All of above"
+        },
+        {
+            "question": "What is the uses of subnetting?",
+            "correct_answer": "It divides one large network into several smaller ones"
+        },
+        {
+            "question": "Repeater operates in which layer of the OSI model?",
+            "correct_answer": "Physical layer"
+        },
+        {
+            "question": "What is the benefit of the Networking?",
+            "correct_answer": "All of the Above"
+        },
+        {
+            "question": "Which of the following is not the Networking Devices?",
+            "correct_answer": "Linux"
+        },
+        {
+            "question": "What is the size of MAC Address?",
+            "correct_answer": "48-bits"
+        },
+        {
+            "question": "Which of the following can be Software?",
+            "correct_answer": "Firewalls"
+        },
+        {
+            "question": "What is the use of Ping command?",
+            "correct_answer": "To test a device on the network is reachable"
+        },
+        {
+            "question": "MAC Address is the example of",
+            "correct_answer": "Data Link Layer"
+        },
+        {
+            "question": "Routing tables of a router keeps track of",
+            "correct_answer": "Routes to use for forwarding data to its destination"
+        },
+        {
+            "question": "Layer-2 Switch is also called",
+            "correct_answer": "Multiport Bridge"
+        },
+        {
+            "question": "Difference between T568A and T568B is",
+            "correct_answer": "Just different manufacturer standards"
+        },
+        {
+            "question": "The meaning of Straight-through Cable is",
+            "correct_answer": "Four wire pairs connect to the same pin on each end"
+        }
+    ],
+    "Rdbms(DBMS)": [
+        {
+            "question": "If the closure of an attribute set is the entire relation then the attribute set is a",
+            "correct_answer": "Superkey"
+        },
+        {
+            "question": "DROP is a ________________ statement in SQL",
+            "correct_answer": "DDL"
+        },
+        {
+            "question": "If two relations R and S are joined, then the non matching tuples of both R and S are ignored in",
+            "correct_answer": "Inner join"
+        },
+        {
+            "question": "The keyword to eliminate duplicate rows from the query result in SQL is",
+            "correct_answer": "UNIQUE"
+        },
+        {
+            "question": "In 2NF",
+            "correct_answer": "No partial FDs exist"
+        },
+        {
+            "question": "Which one is correct statement?\nLogical data independence provides following without changing application programs:\n(i) Changes in access methods.\n(ii) Adding new entities in database\n(iii) Splitting an existing record into two or more records\n(iv) Changing storage medium",
+            "correct_answer": "(ii) and (iii)"
+        },
+        {
+            "question": "In an E-R, Y is the dominant entity and X is a subordinate entity. Then which of the following is incorrect:",
+            "correct_answer": "Operationally, if X is deleted, so is Y"
+        },
+        {
+            "question": "Relational Algebra is",
+            "correct_answer": "Procedural query Language"
+        },
+        {
+            "question": "Which of the following aggregate functions does not ignore nulls in its results?",
+            "correct_answer": "COUNT (*)"
+        },
+        {
+            "question": "R (A, B,C, D) is a relation. Which of the following does not have a lossless join dependency preserving BCNF decomposition",
+            "correct_answer": "A_BCD"
+        },
+        {
+            "question": "Which of the following relational algebra operations do not require the participating tables to be union-compatible?",
+            "correct_answer": "Join"
+        },
+        {
+            "question": "Which of the following is not a property of transactions?",
+            "correct_answer": "Concurrency"
+        },
+        {
+            "question": "Relational Algebra does not have",
+            "correct_answer": "Aggregation operators"
+        },
+        {
+            "question": "Checkpoints are a part of",
+            "correct_answer": "Recovery measures"
+        },
+        {
+            "question": "Tree structures are used to store data in",
+            "correct_answer": "Hierarchical model"
+        },
+        {
+            "question": "The language that requires a user to specify the data to be retrieved without specifying exactly how to get it is",
+            "correct_answer": "Non-Procedural DML"
+        },
+        {
+            "question": "Precedence graphs help to find a AC14/AT11 Database Management Systems2",
+            "correct_answer": "Serializable schedule"
+        },
+        {
+            "question": "The rule that a value of a foreign key must appear as a value of some specitic table is called a?",
+            "correct_answer": "Referential constraint"
+        },
+        {
+            "question": "The clause in SQL that specifies that the query result should be sorted in ascending or descending order based on the values of one or more columns is?",
+            "correct_answer": "Order by"
+        },
+        {
+            "question": "What is a disjoint less constraint?",
+            "correct_answer": "It requires that an entity belongs to no more than one level entity set"
+        },
+        {
+            "question": "According to the levels of abstraction, the schema at the intermediate level is called",
+            "correct_answer": "Logical schema"
+        },
+        {
+            "question": "It is an abstraction through which relationships are treated as higher level entities",
+            "correct_answer": "Specialization"
+        },
+        {
+            "question": "A relation is in _____________ if an attribute of a composite key is dependent on an attribute of other composite key",
+            "correct_answer": "3NF"
+        },
+        {
+            "question": "What is data integrity?",
+            "correct_answer": "It is the data contained in database that is accurate and consistent"
+        },
+        {
+            "question": "What are the desirable properties of a decomposition",
+            "correct_answer": "Dependency preservation"
+        },
+        {
+            "question": "In an E-R diagram double lines indicate",
+            "correct_answer": "Total participation"
+        },
+        {
+            "question": "The operation which is not considered a basic operation of relational algebra is?",
+            "correct_answer": "Join"
+        },
+        {
+            "question": "Fifth Normal form is concerned with",
+            "correct_answer": "Join dependency"
+        },
+        {
+            "question": "Block-interleaved distributed parity is RAID level",
+            "correct_answer": "5"
+        },
+        {
+            "question": "Immediate database modification technique uses",
+            "correct_answer": "Both undo and redo"
+        },
+        {
+            "question": "In SQL the statement select * from R, S is equivalent to",
+            "correct_answer": "Select * from R cross join S"
+        },
+        {
+            "question": "Which of the following is not a consequence of concurrent operations?",
+            "correct_answer": "Update anomaly"
+        },
+        {
+            "question": "As per equivalence rules for query transformation, selection operation distributes over",
+            "correct_answer": "All of the above"
+        },
+        {
+            "question": "The metadata is created by the",
+            "correct_answer": "DDL interpreter"
+        },
+        {
+            "question": "When an E-R diagram is mapped to tables, the representation is redundant for",
+            "correct_answer": "Weak relationship sets"
+        },
+        {
+            "question": "When R[?] S[?][?][?][?]; then the cost of computing R >< S is",
+            "correct_answer": "The same as R [?][?]"
+        },
+        {
+            "question": "In SQL the word 'natural can be used with",
+            "correct_answer": "Inner join"
+        },
+        {
+            "question": "The default level of consistency in SQL is",
+            "correct_answer": "Serializable"
+        },
+        {
+            "question": "If a transaction T has obtained an exclusive lock on item Q, then T can",
+            "correct_answer": "Both read and write Q"
+        },
+        {
+            "question": "Shadow paging has",
+            "correct_answer": "No redo"
+        }
+    ],
+    "Oops Through C++": [
+        {
+            "question": "Who invented OOP?",
+            "correct_answer": "Alan Kay"
+        },
+        {
+            "question": "Which is not feature of OOP in general definitions?",
+            "correct_answer": "Duplicate/Redundant data"
+        },
+        {
+            "question": "Pure OOP can be implemented without using class in a program",
+            "correct_answer": "False"
+        },
+        {
+            "question": "Which Feature of OOP illustrated the code reusability?",
+            "correct_answer": "Polymorphism"
+        },
+        {
+            "question": "Which of the following is not type of class?",
+            "correct_answer": "Start Class"
+        },
+        {
+            "question": "Class is pass by ____________",
+            "correct_answer": "Reference"
+        },
+        {
+            "question": "What is default access specifier for data members or member functions declared within a class without any specifier, in C++?",
+            "correct_answer": "Private"
+        },
+        {
+            "question": "Which is most appropriate comment on following class definition:\nclass Student\n{\nint a;\npublic: float a;\n};",
+            "correct_answer": "Error: same variable name can't be used twice"
+        },
+        {
+            "question": "Which is known as generic class?",
+            "correct_answer": "Template class"
+        },
+        {
+            "question": "Size of a class is :",
+            "correct_answer": "Classes doesn't have any size"
+        },
+        {
+            "question": "Which class can have member functions without their implementation?",
+            "correct_answer": "Abstract class"
+        },
+        {
+            "question": "Which of the following describes a friend class?",
+            "correct_answer": "Friend class can access all the private members of the class, of which it is a friend"
+        },
+        {
+            "question": "What is scope of a class nested inside another class?",
+            "correct_answer": "Protected scope"
+        },
+        {
+            "question": "Class with main() function can be inherited (True/False)",
+            "correct_answer": "True"
+        },
+        {
+            "question": "Which among the following is faise, for member function of a class?",
+            "correct_answer": "Member functions need not be declared inside the class definition"
+        },
+        {
+            "question": "Which syntax for class definition is wrong?",
+            "correct_answer": "Class student{ };"
+        },
+        {
+            "question": "Which of the following pairs are similar?",
+            "correct_answer": "Class and structure"
+        },
+        {
+            "question": "Which among the following is false for class features?",
+            "correct_answer": "Class definition must be ended with a colon"
+        },
+        {
+            "question": "Instance of which type of class can't be created?",
+            "correct_answer": "Abstract class"
+        },
+        {
+            "question": "Which definition best describes an object?",
+            "correct_answer": "Instance of a class"
+        },
+        {
+            "question": "How many objects can be declared of a specific class in a single program?",
+            "correct_answer": "As many as you want"
+        },
+        {
+            "question": "Which among the following is false?",
+            "correct_answer": "Objects can't be passed by reference"
+        },
+        {
+            "question": "Which of the following is incorrect?",
+            "correct_answer": "Class student{ }s[];"
+        },
+        {
+            "question": "The object can't be:",
+            "correct_answer": "Passed as function"
+        },
+        {
+            "question": "What is size of the object of following class (64 bit system)?\nclass student {int rollno; char name[20];\nstatic int studentno; };",
+            "correct_answer": "24"
+        },
+        {
+            "question": "Functions can't return objects (True/False)",
+            "correct_answer": "False"
+        },
+        {
+            "question": "How members of an object are accessed?",
+            "correct_answer": "Using dot operator/period symbol"
+        },
+        {
+            "question": "If a local class is defined in a function, which of the following is true for an object of that class?",
+            "correct_answer": "Object can be used/accessed/declared locally in that function"
+        },
+        {
+            "question": "Which among the following is wrong?",
+            "correct_answer": "Abstract class student{ }; student s;"
+        },
+        {
+            "question": "Object declared in main() function:",
+            "correct_answer": "Can't be used by any other function"
+        },
+        {
+            "question": "When an object is returned ______________",
+            "correct_answer": "A temporary object is created to return the value"
+        },
+        {
+            "question": "Which among the following is correct?",
+            "correct_answer": "class student{ }s1,s2; s1=s2;"
+        },
+        {
+            "question": "How many classes can be defined in a single program?",
+            "correct_answer": "As many as you want"
+        },
+        {
+            "question": "When OOP concept did first came into picture?",
+            "correct_answer": "1970's"
+        },
+        {
+            "question": "Which rule will not affect the friend function?",
+            "correct_answer": "Private and protected members of a class cannot be accessed from outside"
+        },
+        {
+            "question": "What is the syntax of friend function?",
+            "correct_answer": "Friend class1 Class2;"
+        },
+        {
+            "question": "Pick out the correct statement",
+            "correct_answer": "A friend function may or may not be a member of another class"
+        },
+        {
+            "question": "Where does keyword 'friend' should be placed?",
+            "correct_answer": "Function declaration"
+        },
+        {
+            "question": "Where is the derived class is derived from?",
+            "correct_answer": "Base"
+        },
+        {
+            "question": "Pick out the correct statement",
+            "correct_answer": "A derived class's distructor cannot involve its base class's distructor"
+        }
+    ],
+    "Java Programming": [
+        {
+            "question": "Which four options describe the correct default values for array elements of the types indicated?                                                                                                                                  1. int -> O\n2. String -> \"null\"\n3. Dog -> null\n4. char -> '\\u0000'\n5. float -> 0.0f\n6. boolean -> true",
+            "correct_answer": "1, 3, 4, 5"
+        },
+        {
+            "question": "Which one of these lists contains only Java programming language keywords?",
+            "correct_answer": "goto, instanceof, native, finally, default, throws"
+        },
+        {
+            "question": "Which will legally declare, construct, and initialize an array?",
+            "correct_answer": "int myList [] = {4, 3, 7};"
+        },
+        {
+            "question": "Which is a reserved word in the Java programming language?",
+            "correct_answer": "Native"
+        },
+        {
+            "question": "Which is a valid keyword in java?",
+            "correct_answer": "Interface"
+        },
+        {
+            "question": "Which three are legal array declarations?                                                                                       1. int [] myScores [];\n2. char [] myChars;\n3. int [6] myScores;\n4. Dog myDogs [];\n5. Dog myDogs [7];",
+            "correct_answer": "1, 2, 4"
+        },
+        {
+            "question": "Which is the valid declarations within an interface definition?",
+            "correct_answer": "public double methoda();"
+        },
+        {
+            "question": "Which is a valid declarations of a String?",
+            "correct_answer": "String s1 = null;"
+        },
+        {
+            "question": "What is the numerical range of a char?",
+            "correct_answer": "O to 65535"
+        },
+        {
+            "question": "Which three are valid declarations of a float?                                                                                     1. float f1 = -343;\n2. float f2 = 3.14;\n3. float f3 = 0x12345;\n4. float f4 = 42e7;\n5. float f5 = 2001.0D;\n6. float f6 = 2.81F;",
+            "correct_answer": "1, 3, 6"
+        },
+        {
+            "question": "Public interface Foo                                                                                                                                   {\nint k = 4; /* Line 3 */\n}\nWhich three piece of codes are equivalent to line 3?\n1. final int k = 4;\n2. public int k = 4;\n3. static int k = 4;\n4. abstract int k = 4;\n5. volatile int k = 4;\n6. protected int k = 4;",
+            "correct_answer": "1, 2 and 3"
+        },
+        {
+            "question": "Which one of the following will declare an array and initialize it with five numbers?",
+            "correct_answer": "int [] a = {23,22,21,20,19};"
+        },
+        {
+            "question": "What is the value of \"d\" after this line of code has been executed?                                           double d = Math.round ( 2.5 + Math.random() );",
+            "correct_answer": "3"
+        },
+        {
+            "question": "Which of the following would compile without error?",
+            "correct_answer": "int a = Math.abs(-5);"
+        },
+        {
+            "question": "Which of the following are valid calls to Math.max?                                                                      1. Math.max(1,4)\n2. Math.ma\u00d7(2.3, 5)\n3. Math.max(1, 3, 5, 7)\n4. Math.max(-1.5, -2.8f)",
+            "correct_answer": "1, 2 and 4"
+        },
+        {
+            "question": "What allows the programmer to destroy an object x?",
+            "correct_answer": "Only the garbage collection system can destroy an object"
+        },
+        {
+            "question": "You want subclasses in any package to have access to members of a superclass. Which is the most restrictive access that accomplishes this obiective?",
+            "correct_answer": "Protected"
+        },
+        {
+            "question": "Which three form part of correct array declarations?                                                                                                           1. public int a []\n2. static int [] a\n3. public [] int a\n4. private int a [3]\n5. private int [3] a [ ]\n6. public final int [] a",
+            "correct_answer": "1, 2, 6"
+        },
+        {
+            "question": "public class Test\n{\n}\nWhat is the prototype of the default\nconstructor?",
+            "correct_answer": "public Test()"
+        },
+        {
+            "question": "What is the most restrictive access modifier that will allow members of one class to have access to members of another class in the same package?",
+            "correct_answer": "Default access"
+        },
+        {
+            "question": "Which of the following is/are legal method declarations?\n1. protected abstract void m1();\n2. static final void m1(){}\n3. synchronized public final void m1() {}\n4. private native void m1();",
+            "correct_answer": "All of them are legal declarations"
+        },
+        {
+            "question": "Which three are valid method signatures in an interface?\n1. private int getArea();\n2. public float getVol (float x);\n3. public void main (String [] args);\n4. pubic statice void main (String [] args);\n5. boolean setFlag (Boolean [] test);",
+            "correct_answer": "2, 3 and 5"
+        },
+        {
+            "question": "You want a class to have access to members of another class in the same package. Which is the most restrictive access that accomplishes this objective?",
+            "correct_answer": "Private"
+        },
+        {
+            "question": "Which one creates an instance of an array?",
+            "correct_answer": "int[] ia = new int[15];"
+        },
+        {
+            "question": "Which two of the following are legal declarations for non-nested classes and interfaces?\n1. final abstract class Test {}\n2. public static interface Test {}\n3. final public class Test {}\n4. protected abstract class Test {}\n5. protected interface Test {]\n6. abstract public class Test {}",
+            "correct_answer": "3 and 6"
+        },
+        {
+            "question": "Which of the following class level (non-local) variable declarations will not compile?",
+            "correct_answer": "private synchronized int e;"
+        },
+        {
+            "question": "Given a method in a protected class, what access modifier do vou use to restrict access to that method to only the other members of the same class?",
+            "correct_answer": "Private"
+        },
+        {
+            "question": "Which is a valid declaration within an interface?",
+            "correct_answer": "public static short stop = 23;"
+        },
+        {
+            "question": "Which two statements are true for any concrete class implementing the java. lang. Runnable interface?\n1. You can extend the Runnable interface as long as you override the public run() method.\n2. The class must contain a method cailed run() from which all code for that thread will be initiated.\n3. The class must contain an empty public void method named run().\n4. The class must contain a public void method named runnable ().\n5. The class definition must include the words implements Threads and contain a method called run().\n6. The mandatory method must be public, with a return type of void, must be called run(), and cannot take any arguments.",
+            "correct_answer": "2 and 6"
+        },
+        {
+            "question": "Which three statements are true?\n1. The default constructor initialises method variables.\n2. The default constructor has the same access as its class.\n3. The default constructor invokes the no-arg constructor of the superclass.\n4. If a class lacks a no-ars constructor, the compiler always creates a default constructor.\n5. The compiler creates a default constructor only when there are no other constructors for the class.",
+            "correct_answer": "2, 3 and 5"
+        },
+        {
+            "question": "Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?",
+            "correct_answer": "LinkedHashMap"
+        },
+        {
+            "question": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?",
+            "correct_answer": "java.lang.String Buffer"
+        },
+        {
+            "question": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?",
+            "correct_answer": "java.util.ArrayList"
+        },
+        {
+            "question": "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
+            "correct_answer": "java.util.Set"
+        },
+        {
+            "question": "Which interface does java.util. Hashtable implement?",
+            "correct_answer": "Java. util. Map"
+        },
+        {
+            "question": "Which interface provides the capability to store objects using a key-value pair?",
+            "correct_answer": "Java.util. Map"
+        },
+        {
+            "question": "Which collection class allows you to associate its elements with key values, and allows you to retrieve objects in FIFO (first-in, first-out) sequence?",
+            "correct_answer": "java.util. LinkedHashMap"
+        },
+        {
+            "question": "Which collection class allows you to access its elements by associating a key with an element's value, and provides synchronization?",
+            "correct_answer": "java.util. Hashtable"
+        },
+        {
+            "question": "Which is valid declaration of a float?",
+            "correct_answer": "float f = 1F;"
+        },
+        {
+            "question": "Which of the following are Java reserved Words?\n1:run,2:import,3:import,4:implement",
+            "correct_answer": "2 and 3"
+        }
+    ],
+    "Units and Dimensions": [
+        {
+            "question": "Kilo watt hour is the unit of",
+            "correct_answer": "energy"
+        },
+        {
+            "question": "1 horse power is equal to",
+            "correct_answer": "746 W"
+        },
+        {
+            "question": "Pascal is the SI unit of",
+            "correct_answer": "Modulus of elasticity"
+        },
+        {
+            "question": "SI unit of coefficient of thermal conductivity is",
+            "correct_answer": "W m\u207b\u00b9 K\u207b\u00b9"
+        },
+        {
+            "question": "In the following which is not a unit of time",
+            "correct_answer": "Light year"
+        },
+        {
+            "question": "candela is the SI unit of",
+            "correct_answer": "Luminous intensity"
+        },
+        {
+            "question": "kg m s\u207b\u00b9 is the unit of",
+            "correct_answer": "Force"
+        },
+        {
+            "question": "unit used to measure nuclear diameters is",
+            "correct_answer": "Fermi"
+        },
+        {
+            "question": "parsec is the unit to measure",
+            "correct_answer": "distance"
+        },
+        {
+            "question": "1 KWH is equal to",
+            "correct_answer": "36 \u00d7 10\u2075 J"
+        },
+        {
+            "question": "physical quantity having the unit J kg\u207b\u00b9 is",
+            "correct_answer": "Latent heat"
+        },
+        {
+            "question": "unit of magnetic induction field B is",
+            "correct_answer": "all the above"
+        },
+        {
+            "question": "SI unit of electric intensity is",
+            "correct_answer": "H m\u207b\u00b9"
+        },
+        {
+            "question": "If the units of length, mass and time are doubled, the unit of force will be",
+            "correct_answer": "unchanged"
+        },
+        {
+            "question": "Derived unit is",
+            "correct_answer": "volt"
+        },
+        {
+            "question": "The set of quantities which can form a group of fundamental quantities in any system of measurement is",
+            "correct_answer": "All the above"
+        },
+        {
+            "question": "the fundamental unit which is common in CGS and SI is",
+            "correct_answer": "Second"
+        },
+        {
+            "question": "Dimensional formula of coefficient of viscosity is",
+            "correct_answer": "M\u00b9 L\u207b\u00b9 T\u207b\u00b9"
+        },
+        {
+            "question": "Heat and thermal capacity differ in the dimensions of",
+            "correct_answer": "temperature"
+        },
+        {
+            "question": "force constant and surface tension have the same dimensions in",
+            "correct_answer": "all the above"
+        },
+        {
+            "question": "the pair of physical quantities having the same dimensions is",
+            "correct_answer": "Latent heat and gravitational potential"
+        },
+        {
+            "question": "a scalar quantity and a vector quantity having the same dimensions are",
+            "correct_answer": "Frequency and velocity gradient"
+        },
+        {
+            "question": "the pair of vector quantities having the same dimensions is",
+            "correct_answer": "Thrust and weight"
+        },
+        {
+            "question": "the pair of scalar quantities having the same dimensions is",
+            "correct_answer": "Plank's constant and angular momentum"
+        },
+        {
+            "question": "Quantity having units but no dimensions is",
+            "correct_answer": "Strain"
+        },
+        {
+            "question": "Dimensionless quantity is",
+            "correct_answer": "Refractive index"
+        },
+        {
+            "question": "The fundamental quantity which is common in MKS and SI is",
+            "correct_answer": "all the above"
+        },
+        {
+            "question": "One shake is equal to",
+            "correct_answer": "10\u207b\u2078s"
+        },
+        {
+            "question": "The physical quantity which has dimensional formula as that of \nenergy / mass X length   is",
+            "correct_answer": "acceleration"
+        },
+        {
+            "question": "The quantity have negative dimensions in mass is",
+            "correct_answer": "Gravitational constant"
+        },
+        {
+            "question": "Two quantities A and B are related by the relation A/B = m where 'm' is linear\nmass density and A is force. The dimensions of B will be",
+            "correct_answer": "Same as that of latent heat"
+        },
+        {
+            "question": "The unit of universal gas constant is",
+            "correct_answer": "erg/ K"
+        },
+        {
+            "question": "The physical quantity having the dimensions [M\u207b\u00b9 L\u207b\u00b3 T\u00b3 A\u00b2] is",
+            "correct_answer": "Electrical conductivity"
+        },
+        {
+            "question": "Given that the displacement of an oscillating particle is given by\nY = Asin(Bx + Ct + D). The dimensional formula for 'ABCD' is",
+            "correct_answer": "M\u00b0 L T\u207b\u00b9"
+        },
+        {
+            "question": "Parsec is the unit of",
+            "correct_answer": "Distance"
+        },
+        {
+            "question": "If force F, work W and velocity v are taken as fundamental quantities, then the dimensional formula of time T is",
+            "correct_answer": "[W F\u207b\u00b9 v\u207b\u00b9 ]"
+        },
+        {
+            "question": "Light year is a unit of",
+            "correct_answer": "Distance"
+        },
+        {
+            "question": "The magnitude of any physical quantity",
+            "correct_answer": "Does not depend on the method of measurement"
+        },
+        {
+            "question": "Which one of the following is not a derived unit?",
+            "correct_answer": "Electric current"
+        },
+        {
+            "question": "The ratio of the dimensions of Planck's constant and that of the moment of inertia is the dimension of",
+            "correct_answer": "Frequency"
+        },
+        {
+            "question": "The SI unit of thermal conductivity is",
+            "correct_answer": "W\u207b\u00b9m\u207b\u00b9K\u207b\u00b9"
+        },
+        {
+            "question": "Surface tension has the same dimensions as that of",
+            "correct_answer": "spring constant"
+        },
+        {
+            "question": "The unit of magnetic moment is",
+            "correct_answer": "Am\u207b\u00b2"
+        },
+        {
+            "question": "Unit of electrical conductivity is",
+            "correct_answer": "mho/m"
+        },
+        {
+            "question": "Which two of the following five physical parameters have the same dimensions?\n1) Energy Density\n2) Refractive Index\n3) Dielectric Constant\n4) Young's Modulus\n5) Magnetic Field",
+            "correct_answer": "1 and 4"
+        },
+        {
+            "question": "The only mechanical quantity which has negative dimension of mass is",
+            "correct_answer": "Gravitational Constant"
+        },
+        {
+            "question": "Which one of the following is not a unit of Young's modulus?",
+            "correct_answer": "Nm\u207b\u00b2"
+        },
+        {
+            "question": "The SI unit of power is",
+            "correct_answer": "watt"
+        },
+        {
+            "question": "Surface tension has the same dimensions as that of",
+            "correct_answer": "Spring constant"
+        },
+        {
+            "question": "The dimensions of impulse is",
+            "correct_answer": "MLT\u207b\u00b9"
+        },
+        {
+            "question": "Choose the correct statement",
+            "correct_answer": "All the above"
+        },
+        {
+            "question": "Choose the incorrect statement",
+            "correct_answer": "All the above"
+        }
+    ],
+    "Vectors": [
+        {
+            "question": "What is the nature of the angular momentum",
+            "correct_answer": "Axial"
+        },
+        {
+            "question": "Which of the following is a scalar quantity?",
+            "correct_answer": "Electric current strength"
+        },
+        {
+            "question": "Which of the following is a scalar quantity",
+            "correct_answer": "electric charge"
+        },
+        {
+            "question": "Which of the following is a physical quantity that has a magnitude but no\ndirection?",
+            "correct_answer": "scalar"
+        },
+        {
+            "question": "Which of the following is not a vector quantity",
+            "correct_answer": "Displacement"
+        },
+        {
+            "question": "The pair containing scalar and vector quantity is",
+            "correct_answer": "Electro motive force and force"
+        },
+        {
+            "question": "The set containing only scalar quantities is",
+            "correct_answer": "Pole strength, permeability and permittivity"
+        },
+        {
+            "question": "The set containing only vector quantities is",
+            "correct_answer": "Magnetic momentum, electric intensity and torque"
+        },
+        {
+            "question": "Angular velocity is",
+            "correct_answer": "An axial vector"
+        },
+        {
+            "question": "If we add two vectors of equal magnitudes but in opposite directions, we get",
+            "correct_answer": "zero vector"
+        },
+        {
+            "question": "If a vector is along the horizontal direction, its vertical component is",
+            "correct_answer": "Zero"
+        },
+        {
+            "question": "A vector is not changed if",
+            "correct_answer": "It is slide parallel to itself"
+        },
+        {
+            "question": "What is the magnitude of a unit vector?",
+            "correct_answer": "Unity"
+        },
+        {
+            "question": "What are the minimum number of rectangular components of a vector can be split in space and plane respectively",
+            "correct_answer": "3, 2"
+        },
+        {
+            "question": "The resultant of two forces cannot be exceed",
+            "correct_answer": "Algebraic sum of the two forces"
+        },
+        {
+            "question": "Among the following pseudo vector is",
+            "correct_answer": "Angular momentum"
+        },
+        {
+            "question": "The component of vector is",
+            "correct_answer": "Less than or equal to its magnitude"
+        },
+        {
+            "question": "Amoung the following pseudo vector is",
+            "correct_answer": "Angular momentum"
+        },
+        {
+            "question": "A body moves from one corner of an equilateral triangle of side 10 cm to\n  the same corner along the sides. Then the distance and displacement are respectively",
+            "correct_answer": "30 cm & 0 cm"
+        },
+        {
+            "question": "A body moves from A to B with a constant speed of 20 kmph and then from B to A\n  with a constant speed of 30 kmph. Then the average speed of the car is",
+            "correct_answer": "24 kmph"
+        },
+        {
+            "question": "A body moves with a speed of 20 kmph in the first 5s and with a \n speed of 30 kmph in the next 5 s. Then, the average speed of the body is",
+            "correct_answer": "25 kmph"
+        },
+        {
+            "question": "A body starting from rest and travelling with uniform acceleration has a \n velocity of 40 m/s after 10 second at A. Velocity of the body 4 second before\n it crosses the point A is",
+            "correct_answer": "24 m/s"
+        },
+        {
+            "question": "A particle is moving in a circle in a radius 'r' with a constant speed 'v.\n Then change in velocity after the particle has travelled a distance equal to 1/8th of\n the circumference of the circle is:",
+            "correct_answer": "0.785 v"
+        },
+        {
+            "question": "The limiting friction between two bodies in contact is independent of",
+            "correct_answer": "The area of surfaces in contact"
+        },
+        {
+            "question": "Equal masses (m each) are attached at the two ends of a string passing over \n two pull leys. Another mass is attached at the centre of the string. \n In order that there is no sag in the string this mass should be",
+            "correct_answer": "infinite"
+        },
+        {
+            "question": "The coefficient of static friction between two surfaces depends on",
+            "correct_answer": "The shape of the surface in contact"
+        },
+        {
+            "question": "When the mass is rotated in a plane about a\n fixed point, its angular momentum is directed along",
+            "correct_answer": "the axis of rotation"
+        },
+        {
+            "question": "A missile is launched with a velocity less than the earth's escape velocity.\n  The sun of its kinetic and potential energy is",
+            "correct_answer": "negative"
+        },
+        {
+            "question": "A car moves along a straight line whose motion is given by S= 12t + 3t\u00b2 - 2t\u00b3 \nWhere 'S' is in metres and't' is in seconds.\nThe velocity of the car at the start will be:",
+            "correct_answer": "12 m/s"
+        },
+        {
+            "question": "The velocity of a body as a function of time is V = t\u00b3- 6t\u00b2 + 10t +4. \nSet the acceleration of a body in increasing order at given times\n  i)t =Osec      ii) t = 1sec     iii) t=5 sec",
+            "correct_answer": "ii,i,iii"
+        },
+        {
+            "question": "Distance travelled by a body is given by\n2S=10t + 5t\u00b2m. The acceleration of the body is",
+            "correct_answer": "5 m/s\u00b2"
+        },
+        {
+            "question": "For a projectile the range and maximum height are equal. The angle of projection is",
+            "correct_answer": "75\u00b0"
+        },
+        {
+            "question": "If a body travels 30 m in an interval of 2 s and 50 m in the next interval of 2 s,\n then the acceleration of the body is",
+            "correct_answer": "10 m/s\u00b2"
+        }
+    ],
+    "Kinematics and Friction": [
+        {
+            "question": "The kinetic friction is always:",
+            "correct_answer": "Greater than rolling friction"
+        },
+        {
+            "question": "The angle which the rough inclined plane makes with the horizontal\n  when the body placed on it just starts sliding down is called",
+            "correct_answer": "Angle of friction"
+        },
+        {
+            "question": "Rolling friction is:",
+            "correct_answer": "Less than static friction"
+        },
+        {
+            "question": "A force of 98 N is required to pull a body of mass 100 kg over ice.\n  The coefficient of friction is:",
+            "correct_answer": "0.1"
+        },
+        {
+            "question": "A car turns on a slippery road at a constant speed of 10 m/s. If the coefficient \nof friction is 0.5, the minimum radius of the are in meter in which the car turns",
+            "correct_answer": "20"
+        },
+        {
+            "question": "A car moves along a straight line whose motion is given by S= 12t + 3t\u00b2 - 2t\u00b3 \nWhere 'S' is in metres and't' is in seconds.\nThe velocity of the car at the start will be:",
+            "correct_answer": "12 m/s"
+        },
+        {
+            "question": "The velocity of a body as a function of time is V = t\u00b3- 6t\u00b2 + 10t +4. \nSet the acceleration of a body in increasing order at given times\n  i)t =Osec      ii) t = 1sec     iii) t=5 sec",
+            "correct_answer": "ii,i,iii"
+        },
+        {
+            "question": "Distance travelled by a body is given by\n2S=10t + 5t\u00b2m. The acceleration of the body is",
+            "correct_answer": "5 m/s\u00b2"
+        },
+        {
+            "question": "For a projectile the range and maximum height are equal. The angle of projection is",
+            "correct_answer": "75\u00b0"
+        },
+        {
+            "question": "If a body travels 30 m in an interval of 2 s and 50 m in the next interval of 2 s,\n then the acceleration of the body is",
+            "correct_answer": "10 m/s\u00b2"
+        },
+        {
+            "question": "The kinetic friction is always:",
+            "correct_answer": "Greater than rolling friction"
+        },
+        {
+            "question": "The angle which the rough inclined plane makes with the horizontal\n  when the body placed on it just starts sliding down is called",
+            "correct_answer": "Angle of friction"
+        },
+        {
+            "question": "Rolling friction is:",
+            "correct_answer": "Less than static friction"
+        },
+        {
+            "question": "A force of 98 N is required to pull a body of mass 100 kg over ice.\n  The coefficient of friction is:",
+            "correct_answer": "0.1"
+        },
+        {
+            "question": "A car turns on a slippery road at a constant speed of 10 m/s. If the coefficient \nof friction is 0.5, the minimum radius of the are in meter in which the car turns",
+            "correct_answer": "20"
+        },
+        {
+            "question": "A body starting with a velocity 'v' returns to its initial position after 't' second with the same speed, along the same line. Acceleration of the particle is",
+            "correct_answer": "-2v/t"
+        },
+        {
+            "question": "The velocity of body moving along the X-axis is given by v= 4t - 2.5t\u00b2. Its acceleration after 3 s is",
+            "correct_answer": "-11 cm/s\u00b2"
+        },
+        {
+            "question": "A body projected up with a velocity 'u' reaches a height 'h'. To reach double the height, it must be projected up with a velocity of",
+            "correct_answer": "\u221a2\u00b5"
+        },
+        {
+            "question": "A body dropped from a height reaches the ground in 5s. The velocity with which it reaches the ground is",
+            "correct_answer": "29 m/s"
+        },
+        {
+            "question": "A body is thrown up with a velocity 'u' to reach a height 'h'. When the velocity is half the initial velocity, its height from the top point of projection is",
+            "correct_answer": "h/4"
+        },
+        {
+            "question": "A child weighing 25 kg slides down a rope hanging from a branch of a tall tree.\n If the force of friction acting against him is 2 N. What is the child's acceleration",
+            "correct_answer": "8 m/s\u00b2"
+        },
+        {
+            "question": "A fireman weighing 80 kg slides down a pole. If the resting force of friction\n is a constant 720 N, his acceleration measured in m/s\u00b2",
+            "correct_answer": "0.9"
+        },
+        {
+            "question": "A body of mass 10 kg slides along a rough horizontal surface. The coefficient of friction is 1/\u221a3. Taking g = 10 m/S\u00b2, the least force which acts at an angle of 30\u00b0 to the horizontal is",
+            "correct_answer": "50/\u221a3  N"
+        },
+        {
+            "question": "A 60 kg body is pushed with just enough force to start it moving across a floor and the same force continues to act afterwards. The coefficient of static and sliding frictions are 0.5 and 0.4 respectively. The acceleration of the body is",
+            "correct_answer": "1 m/s\u00b2"
+        },
+        {
+            "question": "A body sliding down a rough inclined plane which makes angle of 30\u00b0 with the\nhorizontal. If the coefficient of friction is 0.26, the acceleration is",
+            "correct_answer": "2.78"
+        },
+        {
+            "question": "A body is falling freely from a height of 78.4 m. Its velocity on reaching ground is\n(Given that g =9.8m/s\u00b2)",
+            "correct_answer": "39.2 m/s"
+        },
+        {
+            "question": "The maximum height reached by a ball thrown at an angle 60\u00b0 to the horizontal with an initial velocity 9.8 m/s is (given that g-9.8 m/s\u00b2)",
+            "correct_answer": "3.675 m"
+        },
+        {
+            "question": "If a body is projected vertically up with a velocity 'u' and acceleration due to\ngravity 'g' then them of flight is",
+            "correct_answer": "2u/g"
+        },
+        {
+            "question": "The initial velocity of a body projected upwards from the ground reaches maximum height of metres is (given that g= 9.8 m/s\u00b2)",
+            "correct_answer": "14 m/s"
+        },
+        {
+            "question": "An aero plane is flying horizontally at an altitude of 49m with a velocity of 200ms^-1\nWhen it is just above the target a bomb is dropped. The bomb touches the ground missing the target at a horizontal distance of (Assume g = 9.8 ms\u00b2)",
+            "correct_answer": "632.4m"
+        },
+        {
+            "question": "A good lubricant should be highly",
+            "correct_answer": "Both 1 & 2"
+        },
+        {
+            "question": "Theoretically which of the following are best lubricants",
+            "correct_answer": "Gases"
+        },
+        {
+            "question": "When moving body is suddenly stopped",
+            "correct_answer": "Tyres of the vehicles burst"
+        },
+        {
+            "question": "Sand is dusted to the railway tracks during rainy season to",
+            "correct_answer": "Increase friction"
+        },
+        {
+            "question": "With increase of temperature, the frictional force acting between two surfaces",
+            "correct_answer": "decreases"
+        },
+        {
+            "question": "A body is falling freely from a height of 78.4 m. Its velocity on reaching ground is\n(Given that g =9.8m/s\u00b2)",
+            "correct_answer": "39.2 m/s"
+        },
+        {
+            "question": "The maximum height reached by a ball thrown at an angle 60\u00b0 to the horizontal with an initial velocity 9.8 m/s is (given that g-9.8 m/s\u00b2)",
+            "correct_answer": "3.675 m"
+        },
+        {
+            "question": "If a body is projected vertically up with a velocity 'u' and acceleration due to\ngravity 'g' then them of flight is",
+            "correct_answer": "2u/g"
+        },
+        {
+            "question": "The initial velocity of a body projected upwards from the ground reaches maximum height of metres is (given that g= 9.8 m/s\u00b2)",
+            "correct_answer": "14 m/s"
+        },
+        {
+            "question": "An aero plane is flying horizontally at an altitude of 49m with a velocity of 200ms^-1\nWhen it is just above the target a bomb is dropped. The bomb touches the ground missing the target at a horizontal distance of (Assume g = 9.8 ms\u00b2)",
+            "correct_answer": "632.4m"
+        },
+        {
+            "question": "A good lubricant should be highly",
+            "correct_answer": "Both 1 & 2"
+        },
+        {
+            "question": "Theoretically which of the following are best lubricants",
+            "correct_answer": "Gases"
+        },
+        {
+            "question": "When moving body is suddenly stopped",
+            "correct_answer": "Tyres of the vehicles burst"
+        },
+        {
+            "question": "Sand is dusted to the railway tracks during rainy season to",
+            "correct_answer": "Increase friction"
+        },
+        {
+            "question": "With increase of temperature, the frictional force acting between two surfaces",
+            "correct_answer": "decreases"
+        }
+    ],
+    "Work Power and Energy": [
+        {
+            "question": "Work is said to be done by a force",
+            "correct_answer": "If the magnitude of the force is not equal to zero"
+        },
+        {
+            "question": "Work is always done on a body when",
+            "correct_answer": "It experience an increase in energy through a mechanical influence"
+        },
+        {
+            "question": "A block of mass 'm' is pulled by a force 'F\u00b0 on a level surface through a distance 'S' then",
+            "correct_answer": "The work done on the body against gravitational force is zero"
+        },
+        {
+            "question": "Which of the following statements is incorrect?",
+            "correct_answer": "Potential energy arising from attractive forces is always positive"
+        },
+        {
+            "question": "The negative of the work done by the conservative internal forces on a system equals\n the change in",
+            "correct_answer": "Potential energy"
+        },
+        {
+            "question": "Among the following choose the wrong statement?",
+            "correct_answer": "Work done by a conservative force is independent of the path"
+        },
+        {
+            "question": "There will be increase in potential energy of the system if work is done upon the\n system by",
+            "correct_answer": "Weight of the person lifting it"
+        },
+        {
+            "question": "A box is lifted the floor the floor and kept on the table. The work done on the box \n depends on",
+            "correct_answer": "Weight of the box"
+        },
+        {
+            "question": "What is the nature of graph for force-displacement curve for a body projected\n vertically upwards?",
+            "correct_answer": "Straight line"
+        },
+        {
+            "question": "Area under the force-displacement curve gives",
+            "correct_answer": "Acceleration"
+        },
+        {
+            "question": "Work is said to be done by a force",
+            "correct_answer": "If the magnitude of the force is not equal to zero"
+        },
+        {
+            "question": "Work is always done on a body when",
+            "correct_answer": "It experience an increase in energy through a mechanical influence"
+        },
+        {
+            "question": "A block of mass 'm' is pulled by a force 'F\u00b0 on a level surface through a distance 'S' then",
+            "correct_answer": "The work done on the body against gravitational force is zero"
+        },
+        {
+            "question": "Which of the following statements is incorrect?",
+            "correct_answer": "Potential energy arising from attractive forces is always positive"
+        },
+        {
+            "question": "The negative of the work done by the conservative internal forces on a system equals\n the change in",
+            "correct_answer": "Potential energy"
+        },
+        {
+            "question": "Among the following choose the wrong statement?",
+            "correct_answer": "Work done by a conservative force is independent of the path"
+        },
+        {
+            "question": "There will be increase in potential energy of the system if work is done upon the\n system by",
+            "correct_answer": "Weight of the person lifting it"
+        },
+        {
+            "question": "A box is lifted the floor the floor and kept on the table. The work done on the box \n depends on",
+            "correct_answer": "Weight of the box"
+        },
+        {
+            "question": "What is the nature of graph for force-displacement curve for a body projected\n vertically upwards?",
+            "correct_answer": "Straight line"
+        },
+        {
+            "question": "Area under the force-displacement curve gives",
+            "correct_answer": "Acceleration"
+        },
+        {
+            "question": "A force does not perform any work if",
+            "correct_answer": "None of the above"
+        },
+        {
+            "question": "Under the action of a constant force, a particle is experiencing a constant acceleration. The\npower is",
+            "correct_answer": "Increasing uniformly with time"
+        },
+        {
+            "question": "The work done by a force on a body does not depend upon",
+            "correct_answer": "The initial velocity of the body"
+        },
+        {
+            "question": "A ball is thrown vertically upwards in free space. Its total mechanical energy",
+            "correct_answer": "Remains constant through out of the motion"
+        },
+        {
+            "question": "Which of the following statements is incorrect?",
+            "correct_answer": "Kinetic energy may be zero, positive or negative"
+        },
+        {
+            "question": "The kinetic energy acquired by a body of mass 'm' after travelling a fixed distance \n from rest under the action a constant force is",
+            "correct_answer": "Independent of mass m"
+        },
+        {
+            "question": "A bullet is fired from a rifle. As a result the Rifle recoils. The kinetic energy of\n the rifle as Compared to that of bullet is",
+            "correct_answer": "Less"
+        },
+        {
+            "question": "Choose the pair of quantities related similarly as work and force",
+            "correct_answer": "Electrical potential and intensity"
+        },
+        {
+            "question": "If a paragraph is plotted between momentum and kinetic energy, then shape of \n the graph is",
+            "correct_answer": "Parabola"
+        },
+        {
+            "question": "The slope of kinetic energy-displacement curve of a body in motion will be",
+            "correct_answer": "Directly proportional to its acceleration"
+        }
+    ],
+    "SHM": [
+        {
+            "question": "A particle is in SHM. Then the graph of its acceleration as a function of displacement is",
+            "correct_answer": "straight with negative slope"
+        },
+        {
+            "question": "In simple pendulum is iron bob is replaced by wooden bob of same mass then its time period",
+            "correct_answer": "remains same"
+        },
+        {
+            "question": "The time period of loaded spring on the earth is 6 seconds. The time period of the \n loaded spring on the moon is",
+            "correct_answer": "6\u221a6s"
+        },
+        {
+            "question": "In SHM at the equilibrium position",
+            "correct_answer": "Velocity is maximum"
+        },
+        {
+            "question": "The motion which is not harmonic",
+            "correct_answer": "Motion of a planet around the sun"
+        },
+        {
+            "question": "which of the following equations of motion represents SHM",
+            "correct_answer": "accelerati on = -k(x + a)"
+        },
+        {
+            "question": "A body executing SHM, then the total energy of the body is",
+            "correct_answer": "Proportional to its square of amplitude"
+        },
+        {
+            "question": "When the displacements of the particle is SHM from the mean position is 4 cm, \n the force acting on the particle is 6 N. Then the force acting on the \n particle when its displacement is 6 cm from the mean position is",
+            "correct_answer": "9 N"
+        },
+        {
+            "question": "A particle is executing SHM and is described by y = A sin \u03c9t. \n The maximum acceleration in this motion is",
+            "correct_answer": "A\u03c9\u00b2"
+        },
+        {
+            "question": "Two simple pendulums oscillate simultaneously from the mean positions. The first \n pendulum made 20 oscillations in certain time in which the second pendulum made 25\n  oscillations. Then the ratio of the lengths of the pendulums is",
+            "correct_answer": "25:16"
+        },
+        {
+            "question": "A body executing S.H.M. has a maximum velocity of 1 and a maximum acceleration of 4. Its amplitude in meter's is",
+            "correct_answer": "0.25"
+        },
+        {
+            "question": "The equation of motion of particle executing\nSHM is a + 16\u03c0\u00b2x =0. In this equation 'a' is the linear acceleration in m/s\u00b2, of the particle at a displacement x in meters. The time period of SHM, in seconds is",
+            "correct_answer": "0.5"
+        },
+        {
+            "question": "If two bodies of same mass are executing S.H.M. with frequencies in the ratio 1: 2 and amplitudes in the ratio 2:3 then the ratio of their total energies is",
+            "correct_answer": "1:9"
+        },
+        {
+            "question": "The time period of a light loaded spring is 3.5 seconds. On changing the load by 1kg, the period decreases by 0.5 seconds. The initial load on the spring is",
+            "correct_answer": "3 (10/13) kg"
+        },
+        {
+            "question": "A particle is executing simple harmonic motion with an amplitude of 4cm. At the mean position the velocity of the particle is 10 cm/s. The distance of the particle from the\nmean position when its speed becomes 5cm/s is",
+            "correct_answer": "2\u221a3cm"
+        },
+        {
+            "question": "A particle executes simple harmonic motion with a period of Ts and amplitude A m. The\nshortest time it takes to reach point A/\u221a2m from its mean position in seconds is",
+            "correct_answer": "T/8"
+        },
+        {
+            "question": "A simple pendulum performs SHM about \u00d7=0 with an amplitude 'a', and time period 'T', The speed of the pendulum at x = a/2 will be",
+            "correct_answer": "\u221a3\u03c0a/T"
+        },
+        {
+            "question": "A particle of mass 0.5 kg executes a SHM under a force F = -(50N/m)x. If it crosses the Centre of oscillation with a speed of 10 m/s, find the amplitude of the motion",
+            "correct_answer": "1 m"
+        },
+        {
+            "question": "A particle of mass 200 g executes a SHM. The restoring force provided by a spring of spring constant 80 N/m. Then its time period is,",
+            "correct_answer": "0.31 s"
+        },
+        {
+            "question": "What is the velocity of the particle in SHM if the frequency of the particle is 7 Hz and amplitude is 0.2 m, when the displacement is 0.1 m",
+            "correct_answer": "7.621 m/s"
+        },
+        {
+            "question": "A body executing S.H.M. has a maximum velocity of 1 and a maximum acceleration of 4. Its amplitude in meter's is",
+            "correct_answer": "0.25"
+        },
+        {
+            "question": "The equation of motion of particle executing\nSHM is a + 16\u03c0\u00b2x =0. In this equation 'a' is the linear acceleration in m/s\u00b2, of the particle at a displacement x in meters. The time period of SHM, in seconds is",
+            "correct_answer": "0.5"
+        },
+        {
+            "question": "If two bodies of same mass are executing S.H.M. with frequencies in the ratio 1: 2 and amplitudes in the ratio 2:3 then the ratio of their total energies is",
+            "correct_answer": "1:9"
+        },
+        {
+            "question": "The time period of a light loaded spring is 3.5 seconds. On changing the load by 1kg, the period decreases by 0.5 seconds. The initial load on the spring is",
+            "correct_answer": "3 (10/13) kg"
+        },
+        {
+            "question": "A particle is executing simple harmonic motion with an amplitude of 4cm. At the mean position the velocity of the particle is 10 cm/s. The distance of the particle from the\nmean position when its speed becomes 5cm/s is",
+            "correct_answer": "2\u221a3cm"
+        },
+        {
+            "question": "A particle executes simple harmonic motion with a period of Ts and amplitude A m. The\nshortest time it takes to reach point A/\u221a2m from its mean position in seconds is",
+            "correct_answer": "T/8"
+        },
+        {
+            "question": "A simple pendulum performs SHM about \u00d7=0 with an amplitude 'a', and time period 'T', The speed of the pendulum at x = a/2 will be",
+            "correct_answer": "\u221a3\u03c0a/T"
+        },
+        {
+            "question": "A particle of mass 0.5 kg executes a SHM under a force F = -(50N/m)x. If it crosses the Centre of oscillation with a speed of 10 m/s, find the amplitude of the motion",
+            "correct_answer": "1 m"
+        },
+        {
+            "question": "A particle of mass 200 g executes a SHM. The restoring force provided by a spring of spring constant 80 N/m. Then its time period is,",
+            "correct_answer": "0.31 s"
+        },
+        {
+            "question": "What is the velocity of the particle in SHM if the frequency of the particle is 7 Hz and amplitude is 0.2 m, when the displacement is 0.1 m",
+            "correct_answer": "7.621 m/s"
+        },
+        {
+            "question": "A particle is performing SHM has an amplitude of 0.2 m and has a period of 2 seconds, then its velocity at mean position is",
+            "correct_answer": "0.63 m/s"
+        },
+        {
+            "question": "The simple pendulum is of length 50 cm. Then its period of oscillation is",
+            "correct_answer": "1.42 s"
+        },
+        {
+            "question": "The time period of simple pendulum of length 50 cm is 1.41 s. Then its value of 'g' is",
+            "correct_answer": "9.929 m/s^-2"
+        },
+        {
+            "question": "A tuning fork vibrates with a frequency of 130 Hz with an amplitude of 3 mm. Then its maximum velocity is",
+            "correct_answer": "2.45 m/s"
+        },
+        {
+            "question": "A particle executing SHM with amplitude 'A'. If the maximum velocity is 'v', then the\nmaximum acceleration is",
+            "correct_answer": "v\u00b2/A"
+        },
+        {
+            "question": "A particle executing SHM along a straight line with diameter 6cm.\nWhen the displacement is 1cm, its velocity is numerically equal to acceleration. The period of the particle is",
+            "correct_answer": "2\u03c0/\u221a8"
+        },
+        {
+            "question": "The amplitude of a body executing SHM is 5m. If the velocity of the body at the mean position is 628 m/s, its time period is,",
+            "correct_answer": "\u00bd s"
+        },
+        {
+            "question": "The ratio of frequencies of two pendulums are 2:3, then their lengths are in the ratio",
+            "correct_answer": "9/4"
+        },
+        {
+            "question": "The maximum acceleration of a simple pendulum is doubled, when",
+            "correct_answer": "The amplitude id doubled"
+        },
+        {
+            "question": "The function sin\u00b2 \u03c9t represents",
+            "correct_answer": "a periodic, but not SHM with period of \u03c0/\u03c9"
+        },
+        {
+            "question": "The necessary and sufficient condition for SHM is",
+            "correct_answer": "Proportionality between acceleration and displacement from equilibrium position"
+        },
+        {
+            "question": "The amplitude of a simple pendulum oscillating in air decreases with time, there will be",
+            "correct_answer": "Loss in energy which dissipates heat energy"
+        },
+        {
+            "question": "When the pendulum is making SHM and passes through mean position it will have",
+            "correct_answer": "Maximum KE and minimum PE"
+        },
+        {
+            "question": "A mass 'm' is suspended to a spring. The spring is cut into two halves then the mass ratio of frequency of vibration to the original frequency is",
+            "correct_answer": "\u221a2"
+        },
+        {
+            "question": "A particle executes SHM with a period of 8s and amplitude 4cm of maximum speed in cm/s is",
+            "correct_answer": "p"
+        },
+        {
+            "question": "A particle describes uniform circular motion with uniform angular velocity then its projection on any diameter of uniform circular path",
+            "correct_answer": "describes a SHM"
+        },
+        {
+            "question": "In a SHM the factor is",
+            "correct_answer": "amplitude"
+        },
+        {
+            "question": "A girl swings on cradle in a sitting position. If she stands what happens to the time period of girl and the cradle",
+            "correct_answer": "The period decrease"
+        },
+        {
+            "question": "A body of mass 5 x 10\u00b3 kg is making SHM with amplitude 1x10^-1 m with velocity 1ms^-1 Its velocity will be half at displacement of",
+            "correct_answer": "5\u221a3\u00d710^-3m"
+        },
+        {
+            "question": "The amplitude of simple pendulum is 4x10^-2m. The KE and PE will equal at a distance from the equilibrium position of",
+            "correct_answer": "2\u221a2\u00d710^-2 m"
+        }
+    ],
+    "Sound": [
+        {
+            "question": "Frequency range of audible range",
+            "correct_answer": "20 - 20 kHz"
+        },
+        {
+            "question": "The waves in which the particles of the medium vibrate in a direction\nperpendicular to the direction of the wave motion is known as",
+            "correct_answer": "Transverse wave"
+        },
+        {
+            "question": "When a wave travels through a medium",
+            "correct_answer": "Energy is transfered at a constant speed"
+        },
+        {
+            "question": "When sound travels through air, the air particles",
+            "correct_answer": "Vibrate along the direction of wave Propagation."
+        },
+        {
+            "question": "Which of the following is not a characteristic of a musical sound?",
+            "correct_answer": "Wavelength"
+        },
+        {
+            "question": "Sound travels through",
+            "correct_answer": "Solids"
+        },
+        {
+            "question": "Sound waves are",
+            "correct_answer": "Longitudinal"
+        },
+        {
+            "question": "Which of the following will remain unchanged when a sound wave travels in air or\n in water?",
+            "correct_answer": "Frequency"
+        },
+        {
+            "question": "If the intensity of sound is double, the intensity level will increase by nearly",
+            "correct_answer": "dB"
+        },
+        {
+            "question": "Ultrasonic waves can be detected by",
+            "correct_answer": "Kundt's tube"
+        },
+        {
+            "question": "Decibel is a",
+            "correct_answer": "Unit of intensity"
+        },
+        {
+            "question": "To raise the pitch of a stringed musical instrument the player can",
+            "correct_answer": "Tighten the string"
+        },
+        {
+            "question": "Pitch of sound depends on",
+            "correct_answer": "Frequency"
+        },
+        {
+            "question": "Beats occur because of",
+            "correct_answer": "Interference"
+        },
+        {
+            "question": "When two sound waves are superimposed, beats are produced when they have",
+            "correct_answer": "Nearly different frequencies"
+        },
+        {
+            "question": "Doppler effect is applicable for",
+            "correct_answer": "Both light and sound waves"
+        },
+        {
+            "question": "The loudness of a sound upon",
+            "correct_answer": "Amplitude"
+        },
+        {
+            "question": "Pitch of sound depends upon",
+            "correct_answer": "periodically and regularity"
+        },
+        {
+            "question": "Quality of sound depends upon",
+            "correct_answer": "Amplitude"
+        },
+        {
+            "question": "Sweetness of a sound depends upon",
+            "correct_answer": "frequency"
+        },
+        {
+            "question": "Decibel is a",
+            "correct_answer": "Unit of intensity"
+        },
+        {
+            "question": "To raise the pitch of a stringed musical instrument the player can",
+            "correct_answer": "Tighten the string"
+        },
+        {
+            "question": "Pitch of sound depends on",
+            "correct_answer": "Frequency"
+        },
+        {
+            "question": "Beats occur because of",
+            "correct_answer": "Interference"
+        },
+        {
+            "question": "When two sound waves are superimposed, beats are produced when they have",
+            "correct_answer": "Nearly different frequencies"
+        },
+        {
+            "question": "Doppler effect is applicable for",
+            "correct_answer": "Both light and sound waves"
+        },
+        {
+            "question": "The loudness of a sound upon",
+            "correct_answer": "Amplitude"
+        },
+        {
+            "question": "Pitch of sound depends upon",
+            "correct_answer": "periodically and regularity"
+        },
+        {
+            "question": "Quality of sound depends upon",
+            "correct_answer": "Amplitude"
+        },
+        {
+            "question": "Sweetness of a sound depends upon",
+            "correct_answer": "frequency"
+        },
+        {
+            "question": "A source of sound and an observer are moving away from each other. The apparent pitch will",
+            "correct_answer": "Decrease"
+        },
+        {
+            "question": "Sound energy is converted into electrical energy to",
+            "correct_answer": "Microphone"
+        },
+        {
+            "question": "The walls of the halls built for music concerts should be",
+            "correct_answer": "absorb sound"
+        },
+        {
+            "question": "The unit to compare the sound energy level is",
+            "correct_answer": "Decibel"
+        },
+        {
+            "question": "The intensity of sound produced by A is 1000 times greater than B. Then the difference in the intensity level is",
+            "correct_answer": "30 dB"
+        },
+        {
+            "question": "The greater the density of medium",
+            "correct_answer": "The louder is the sound"
+        },
+        {
+            "question": "The intensity of sound varies with",
+            "correct_answer": "square of excess pressure"
+        },
+        {
+            "question": "The 'zero point' of the scale of loudness is",
+            "correct_answer": "Threshold of hearing"
+        },
+        {
+            "question": "Absorption coefficient can be measured by",
+            "correct_answer": "Microphone"
+        },
+        {
+            "question": "Absorption coefficient is",
+            "correct_answer": "Ratio of energies"
+        },
+        {
+            "question": "A source of sound and an observer are moving away from each other. The apparent pitch will",
+            "correct_answer": "Decrease"
+        },
+        {
+            "question": "Sound energy is converted into electrical energy to",
+            "correct_answer": "Microphone"
+        },
+        {
+            "question": "The walls of the halls built for music concerts should be",
+            "correct_answer": "absorb sound"
+        },
+        {
+            "question": "The unit to compare the sound energy level is",
+            "correct_answer": "Decibel"
+        },
+        {
+            "question": "The intensity of sound produced by A is 1000 times greater than B. Then the difference in the intensity level is",
+            "correct_answer": "30 dB"
+        },
+        {
+            "question": "The greater the density of medium",
+            "correct_answer": "The louder is the sound"
+        },
+        {
+            "question": "The intensity of sound varies with",
+            "correct_answer": "square of excess pressure"
+        },
+        {
+            "question": "The 'zero point' of the scale of loudness is",
+            "correct_answer": "Threshold of hearing"
+        },
+        {
+            "question": "Absorption coefficient can be measured by",
+            "correct_answer": "Microphone"
+        },
+        {
+            "question": "Absorption coefficient is",
+            "correct_answer": "Ratio of energies"
+        }
+    ],
+    "Heat and Thermodynamics": [
+        {
+            "question": "A small amount of mercury is at the bottom of a tube of height 4.2 m closed at its two ends. It is turned up and down 21 times. If specific heat of mercury is 0.03 cal gm^-1\u00b0C^-1, g=10ms^-2? and J=4.2J/cal. Temperature of mercury increases by",
+            "correct_answer": "21\u00b0C"
+        },
+        {
+            "question": "An ice block at 0\u00b0C falls from rest from contain height. If 0.1% of ice melts on reaching the ground, the height from which it is released (g=10ms^-2,L=80cal/gm,J=4.2J/cal)",
+            "correct_answer": "33.6 m"
+        },
+        {
+            "question": "A bullet of mass 4.2 grams is moving at certain velocity. If all its KE is converted to heat, the amount of energy liberated is 20 cal. Then initial velocity of that bullet is",
+            "correct_answer": "200 ms^-1"
+        },
+        {
+            "question": "A lead bullet just melts when stopped by an obstacle. Assuming that 2/7th of the heat is\nabsorbed by the obstacle. If initial temperature is 27\u00b0C, melting point of lead is 327\u00b0C, specific heat = 0.03 cal/gm \u00b0C, latent heat of fusion of lead = 6 cal/gm and J=4.2J/cal, velocity of that bullet is",
+            "correct_answer": "420 ms^-1"
+        },
+        {
+            "question": "A block of ice at 0\u00b0C whose mass is initially 21 Kg slides along a horizontal surface starting with an initial velocity of 2 ms-1 and comes to rest. The ice melted as a result of friction between the block and the table is",
+            "correct_answer": "1/8 gm"
+        },
+        {
+            "question": "A lead bullet strikes against a steel plate with a velocity of 210 ms-1. If the bullet falls dead after the impact, and the heat produced is shared equally between the bullet and the target, rise in temperature is two of the bullet is (specific heat 0.03 CGS units)",
+            "correct_answer": "87.50C"
+        },
+        {
+            "question": "A drilling machine is used to drill a hole in a 10 Kg metal block. Power of the dilling machine is 1 KW and it is used for 5 minutes. If 40% of the work done by the drilling machine is converted into heat in the metal block, the rise in its temperature is (specific heat = 0.115 cal gm^-1\u00b0 C^-1 and J=4.175 J/cal)",
+            "correct_answer": "25\u00b0C"
+        },
+        {
+            "question": "A water fall is 84 m high. Assuming that 50% of K.E of falling water converts into heat, rise in temperature of water on reaching the ground will be",
+            "correct_answer": "0.098\u00b0C"
+        },
+        {
+            "question": "When I mole of monoatomic gas is mixed with B moles of a diatomic gas. Then adiabatic exponent of the mixture is",
+            "correct_answer": "13/9"
+        },
+        {
+            "question": "The amount of work done by 0.2 mole of gas at 27\u00b0C. When it expands to double its volume at constant pressure is",
+            "correct_answer": "120 cal"
+        },
+        {
+            "question": "A small amount of mercury is at the bottom of a tube of height 4.2 m closed at its two ends. It is turned up and down 21 times. If specific heat of mercury is 0.03 cal gm^-1\u00b0C^-1, g=10ms^-2? and J=4.2J/cal. Temperature of mercury increases by",
+            "correct_answer": "21\u00b0C"
+        },
+        {
+            "question": "An ice block at 0\u00b0C falls from rest from contain height. If 0.1% of ice melts on reaching the ground, the height from which it is released (g=10ms^-2,L=80cal/gm,J=4.2J/cal)",
+            "correct_answer": "33.6 m"
+        },
+        {
+            "question": "A bullet of mass 4.2 grams is moving at certain velocity. If all its KE is converted to heat, the amount of energy liberated is 20 cal. Then initial velocity of that bullet is",
+            "correct_answer": "200 ms^-1"
+        },
+        {
+            "question": "A lead bullet just melts when stopped by an obstacle. Assuming that 2/7th of the heat is\nabsorbed by the obstacle. If initial temperature is 27\u00b0C, melting point of lead is 327\u00b0C, specific heat = 0.03 cal/gm \u00b0C, latent heat of fusion of lead = 6 cal/gm and J=4.2J/cal, velocity of that bullet is",
+            "correct_answer": "420 ms^-1"
+        },
+        {
+            "question": "A block of ice at 0\u00b0C whose mass is initially 21 Kg slides along a horizontal surface starting with an initial velocity of 2 ms-1 and comes to rest. The ice melted as a result of friction between the block and the table is",
+            "correct_answer": "1/8 gm"
+        },
+        {
+            "question": "A lead bullet strikes against a steel plate with a velocity of 210 ms-1. If the bullet falls dead after the impact, and the heat produced is shared equally between the bullet and the target, rise in temperature is two of the bullet is (specific heat 0.03 CGS units)",
+            "correct_answer": "87.50C"
+        },
+        {
+            "question": "A drilling machine is used to drill a hole in a 10 Kg metal block. Power of the dilling machine is 1 KW and it is used for 5 minutes. If 40% of the work done by the drilling machine is converted into heat in the metal block, the rise in its temperature is (specific heat = 0.115 cal gm^-1\u00b0 C^-1 and J=4.175 J/cal)",
+            "correct_answer": "25\u00b0C"
+        },
+        {
+            "question": "A water fall is 84 m high. Assuming that 50% of K.E of falling water converts into heat, rise in temperature of water on reaching the ground will be",
+            "correct_answer": "0.098\u00b0C"
+        },
+        {
+            "question": "When I mole of monoatomic gas is mixed with B moles of a diatomic gas. Then adiabatic exponent of the mixture is",
+            "correct_answer": "13/9"
+        },
+        {
+            "question": "The amount of work done by 0.2 mole of gas at 27\u00b0C. When it expands to double its volume at constant pressure is",
+            "correct_answer": "120 cal"
+        },
+        {
+            "question": "Work done on heating one mole of Helium adiabatically through 00C is W. Then the\nwork done on heating three moles of hydrogen adiabatically through the same change in temperature is",
+            "correct_answer": "5 W"
+        },
+        {
+            "question": "One mole of oxygen is heated at contar pressure from 00C. The amount of heat that should be given to double its volume at tne same pressure is (Cp=0.2 cal gm^-1 K^-1)",
+            "correct_answer": "1747.2 cal"
+        },
+        {
+            "question": "A mono atomic gas at 170C is suddenly compressed to 1/8 of its original volume.\nThen its final temperature is",
+            "correct_answer": "887\u00b0c"
+        },
+        {
+            "question": "A 0.2 Kg steel ball falls from a height of 30 m and bounces to a height of 9m. If all the KE lost is converted to heat, and is absorbed by the ball, rise in temperature of the ball is (take g=10ms^-2 and specific heat of steel=0.1 CGS units)",
+            "correct_answer": "0.5\u00b0c"
+        },
+        {
+            "question": "One gram mole of a perfect gas at 1000C expands isothermally until its volume is doubled. Then the amount of work done is about (R=2 cal mol^-1 and J-4.2J/cal)",
+            "correct_answer": "2172 J"
+        },
+        {
+            "question": "The molar specific heat of a gas at constant volume is 24J mol^-1 k^-1. Then change in its internal energy if one mole of such gas is heated at constant volume from 10\u00b0C to 30\u00b0C is",
+            "correct_answer": "480J"
+        },
+        {
+            "question": "In a certain process 5 Kcal of heat is supplied to the system and the system does\n6000J of work. If the initial internal energy of the System is 37KJ then final value of its\ninternal energy",
+            "correct_answer": "52KJ"
+        },
+        {
+            "question": "An ideal gas goes from state A to B as shown. Then work done by the gas during this process is",
+            "correct_answer": "Zero"
+        },
+        {
+            "question": "When 1 gm of water at 100\u00b0C is completely converted to steam at 100\u00b0C, occupies\n1650CC. The increase in the internal energy of the molecules is \n(take the pressure = 10^5 Pa, L=540 cal/gm and J=4.2 J/cal)",
+            "correct_answer": "2103J"
+        },
+        {
+            "question": "During the adiabatic expansion of a gas volume increases by 5%. If \u03b3 =3/2, the percentage change in pressure is",
+            "correct_answer": "-7.5%"
+        },
+        {
+            "question": "A gas expands from 25 lit to 75 lit. at a constant pressure of 2 atm.\n(1 atm= 10^5 Nm^-2). Then work done by the gas during this expansion is",
+            "correct_answer": "10 KJ"
+        },
+        {
+            "question": "A gas mixture consists of 4gm of Helium and 32gm of oxygen. Then the ratio of specific heats of the mixture (Cp/Cy) is",
+            "correct_answer": "3/2"
+        },
+        {
+            "question": "Certain quantity of heat is supplied to a monoatomic ideal gas which expands at constant pressure. The percentage of heat that goes into work done by the gas is",
+            "correct_answer": "40%"
+        },
+        {
+            "question": "The temperature of 5 moles of a gas which was heated at constant. volume was changed from 10\u00b0C to 20\u00b0C. The change in internal energy is found to be 80J. Then heat capacity of the gas at constant volume is",
+            "correct_answer": "8 JK^-1"
+        },
+        {
+            "question": "During an adiabatic expansion of 2 moles of a gas, the change in internal energy is equal to -84 J. The work done during this process is",
+            "correct_answer": "84 J"
+        },
+        {
+            "question": "A certain gas is found to obey PV\u03b3 during adiabatic change such that \u03b3 =3/21. If T is initial absolute temperature of the gas and the gas is compressed to half of its volume, its final temperature is",
+            "correct_answer": "\u221a2T"
+        },
+        {
+            "question": "If R is the universal gas constant, the amount of heat needed to raise the temperature of 2 moles of an ideal monoatomic gas from 0\u00b0C to 100\u00b0C when no work is done is",
+            "correct_answer": "300R"
+        },
+        {
+            "question": "The temperature of 100gm of water is to be raised from 24\u00b0C to 90\u00b0C by adding steam to it. Then mass of steam required for the purpose is",
+            "correct_answer": "12gm"
+        },
+        {
+            "question": "A container is divided into two equal portions. One portion contains an ideal gas at certain pressure and temperature while the other portion is a perfect vacuum. If a hole is opened between the two portions, the change in energy of the gas is",
+            "correct_answer": "Zero"
+        },
+        {
+            "question": "The specific heat at constant volume for a monoatomic gas is 0.075 k cal kg^-1  k^-1  and its gram molecular specific heat is 3cal mo^-1  k^-1 . Then mass of one atom of that gas is\n(Avogadro's number = 6x10\u00b2\u00b3 molecules /mole)",
+            "correct_answer": "6.67\u00d710^-23 gm"
+        },
+        {
+            "question": "The density of air at N.T.P. is 1.293 gm/lit. If the pressure is tripled keeping its temperature constant its density becomes",
+            "correct_answer": "3.87 gm/ltr"
+        },
+        {
+            "question": "A Vessel containing 10 liter of air under a pressure of 1 MPa is connected to a 4litre empty vessel. The final air pressure in the vessel assuming that the process is isothermal",
+            "correct_answer": "5/7 MPa"
+        },
+        {
+            "question": "A Vessel containing 9 litres of an ideal gas at 760 mm pressure is connected to an evacuated 9 litre vessel. The resultant pressure is",
+            "correct_answer": "380 mm"
+        },
+        {
+            "question": "At what temperature will the volume of gas be twice the volume at 27\u00b0C at a given pressure",
+            "correct_answer": "327\u00b0C"
+        },
+        {
+            "question": "At 0\u00b0 C temperature and 1 atmospheric pressure a given mass of gas occupies a volume of 273cc. Its volume at the same pressure and at 50\u00b0 C is",
+            "correct_answer": "323cc"
+        },
+        {
+            "question": "The pressure of a gas is increased four times and its absolute temperature two times. The ratio of its final volume to its initial volume is",
+            "correct_answer": "1:2"
+        },
+        {
+            "question": "The volume of a gas at 27\u00b0C and 2 atmospheric pressure is 2 litres. If the pressure is doubled and absolute temperature is made half, the new volume of gas is",
+            "correct_answer": "500 ml"
+        },
+        {
+            "question": "At 20\u00b0C temperature and 1 atmosphere\npressure a gas has a volume of 293 ml. Its volume at NTP is",
+            "correct_answer": "273cc"
+        },
+        {
+            "question": "The volume of a gas is 5 litres at NTP, what will be its volume at 273\u00b0C and at a pressure of four atmospheres",
+            "correct_answer": "2.5 litres"
+        },
+        {
+            "question": "A given amount of gas occupies 1000cc at 27\u00b0C and 1200cc and 87\u00b0C. What is its volume coefficient of expansion",
+            "correct_answer": "1/273\u00b0 C^-1"
+        },
+        {
+            "question": "A perfect gas at 27\u00b0C heated at constant pressure so as to double its volume. The final temperature of the gas will be",
+            "correct_answer": "327\u00b0C"
+        },
+        {
+            "question": "A gas is heated through 1\u00b0C in a closed vessel. Its pressure is increased by 0.4%.\nThe initial temperature of the gas is",
+            "correct_answer": "-23\u00b0C"
+        },
+        {
+            "question": "The density of a gas at N.T.P is 1.5 gm/lit, its density at a pressure of 152cm of Hg and temperature 27\u00b0C",
+            "correct_answer": "(273/100) gm/ltr"
+        },
+        {
+            "question": "Which of the following is not thermodynamical function?",
+            "correct_answer": "Work done"
+        },
+        {
+            "question": "Thermodynamic system returns to its original state, which of the following is NOT possible?",
+            "correct_answer": "The work done is independent of the path followed"
+        },
+        {
+            "question": "Heat is",
+            "correct_answer": "Energy in transit"
+        },
+        {
+            "question": "The temperature of a system determines the direction of net change of",
+            "correct_answer": "Intermolecular kinetic energy"
+        },
+        {
+            "question": "The thermal motion means",
+            "correct_answer": "Random motion of molecules"
+        },
+        {
+            "question": "The mechanical equivalent of heat J is",
+            "correct_answer": "A conversion factor"
+        },
+        {
+            "question": "The bullet fired from a gun gets heated on striking a target because",
+            "correct_answer": "Mechanical work is converted into heat"
+        }
+    ],
+    "Modern Physics": [
+        {
+            "question": "A photo electric cell converts",
+            "correct_answer": "light energy into electrical energy"
+        },
+        {
+            "question": "The strength of current in photo electric cell",
+            "correct_answer": "increases with increase in intensity of incident light"
+        },
+        {
+            "question": "The photoelectric work function",
+            "correct_answer": "is different for different metals"
+        },
+        {
+            "question": "In photo electric effect ejection of photo electrons takes place from the surface of metal when",
+            "correct_answer": "light of suitable wavelength falls on it"
+        },
+        {
+            "question": "The threshold frequency for potassium is 3\u00d710^14 Hz. The work function is",
+            "correct_answer": "2.0 \u00d7 10-^14 J"
+        },
+        {
+            "question": "The photoelectric effect is explained on the basis of",
+            "correct_answer": "quantum theory of light"
+        },
+        {
+            "question": "The magnetization of super conductor is",
+            "correct_answer": "-H"
+        },
+        {
+            "question": "Examples of type-I super conductors are",
+            "correct_answer": "Al, Zn, Hg"
+        },
+        {
+            "question": "In a super conducting state",
+            "correct_answer": "Both entropy and electronic specific heat change"
+        },
+        {
+            "question": "In type-II super conductors the coherence length is of the order of",
+            "correct_answer": "10^-3 \u043c"
+        },
+        {
+            "question": "A photo electric cell converts",
+            "correct_answer": "light energy into electrical energy"
+        },
+        {
+            "question": "The strength of current in photo electric cell",
+            "correct_answer": "increases with increase in intensity of incident light"
+        },
+        {
+            "question": "The photoelectric work function",
+            "correct_answer": "is different for different metals"
+        },
+        {
+            "question": "In photo electric effect ejection of photo electrons takes place from the surface of metal when",
+            "correct_answer": "light of suitable wavelength falls on it"
+        },
+        {
+            "question": "The threshold frequency for potassium is 3\u00d710^14 Hz. The work function is",
+            "correct_answer": "2.0 \u00d7 10-^14 J"
+        },
+        {
+            "question": "The photoelectric effect is explained on the basis of",
+            "correct_answer": "quantum theory of light"
+        },
+        {
+            "question": "The magnetization of super conductor is",
+            "correct_answer": "-H"
+        },
+        {
+            "question": "Examples of type-I super conductors are",
+            "correct_answer": "Al, Zn, Hg"
+        },
+        {
+            "question": "In a super conducting state",
+            "correct_answer": "Both entropy and electronic specific heat change"
+        },
+        {
+            "question": "In type-II super conductors the coherence length is of the order of",
+            "correct_answer": "10^-3 \u043c"
+        }
+    ]
+}
