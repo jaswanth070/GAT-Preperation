@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATHS - Jaswanth Madiya</title>
+    <title>MAIN VIEWR - Jaswanth Madiya</title>
     <style>
         body {
             display: flex;
@@ -19,8 +19,8 @@
 
         #question-container {
             margin: 0 auto;
-            /* max-width: 800px; */
-            /* width: 100%; */
+            max-width: 800px;
+            width: 100%;
         }
 
         .subject-name {
@@ -91,6 +91,7 @@
             }
         }
     </style>
+
     <script>
         // Check if the user is logged in
         const isLoggedIn = localStorage.getItem('loggedIn');
@@ -107,13 +108,12 @@
         <select class="subject-name" id="subject-dropdown" onchange="loadQuestionsBySubject()">
             <!-- Options will be dynamically populated by JavaScript -->
         </select>
-        <img id="question" src=""></img>
+        <div id="question"></div>
         <div id="answer"></div>
-        <div id="navigation-buttons">
+        <div class="navigation-buttons">
             <button id="previous-button" class="navigation-button" onclick="showPreviousQuestion()">Previous</button>
             <button id="next-button" class="navigation-button" onclick="showNextQuestion()">Next</button>
         </div>
-
     </div>
     <footer style="background-color: #333; color: #fff; padding: 10px; position: fixed; bottom: 0; width: 100%;">
         &copy; 2023 All Rights to Jaswanth Madiya
@@ -122,7 +122,7 @@
     <script>
         // Load JSON data from the file
         async function loadJSONData() {
-            const response = await fetch('maths.json');
+            const response = await fetch('questions.json');
             const data = await response.json();
             return data;
         }
@@ -154,8 +154,7 @@
                 // Show the previous question
                 currentQuestionIndex--;
                 const currentQuestion = currentQuestions[currentQuestionIndex];
-                // document.getElementById("subject-name").textContent = currentSubject;
-                document.getElementById("question").src = currentQuestion.image_link;
+                document.getElementById("question").textContent = currentQuestion.question;
                 document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
             } else {
                 // If already at the first question, show a message or handle as needed
@@ -175,8 +174,7 @@
                 // Show the next question
                 currentQuestionIndex++;
                 const currentQuestion = currentQuestions[currentQuestionIndex];
-                // document.getElementById("subject-name").textContent = currentSubject;
-                document.getElementById("question").src = currentQuestion.image_link;
+                document.getElementById("question").textContent = currentQuestion.question;
                 document.getElementById("answer").textContent = `Correct Answer: ${currentQuestion.correct_answer}`;
             } else {
                 // Move to the next subject
